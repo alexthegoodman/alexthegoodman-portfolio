@@ -2,11 +2,11 @@ import {
   faFacebook,
   faLinkedin,
   faTwitter,
-} from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import * as React from 'react';
-import * as styles from '../sass/footer.module.scss';
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import * as React from "react";
+import * as styles from "../sass/footer.module.scss";
 
 const Footer: React.FC<any> = () => {
   const currentYear = new Date().getFullYear();
@@ -17,7 +17,11 @@ const Footer: React.FC<any> = () => {
         <div className={styles.left}>
           <div className={styles.resumeInfo}>
             <h5>Looking for a resume?</h5>
-            <a className={styles.btn} href="/alex-woodman-resume-2021.pdf" download={true}>
+            <a
+              className={styles.btn}
+              href="/alex-woodman-resume-2021-3.pdf"
+              download={true}
+            >
               Download Resume
             </a>
           </div>
