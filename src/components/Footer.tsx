@@ -19,7 +19,7 @@ const Footer: React.FC<any> = () => {
             <h5>Looking for a resume?</h5>
             <a
               className={styles.btn}
-              href="/alex-woodman-resume-2021-3.pdf"
+              href="/alex-woodman-resume-2021-full.pdf"
               download={true}
             >
               Download Resume
