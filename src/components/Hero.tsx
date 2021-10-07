@@ -1,9 +1,9 @@
-import * as React from 'react';
+import * as React from "react";
 // import ReactMapGL from 'react-map-gl';
-import { StaticMap } from 'react-map-gl';
-import * as styles from '../sass/hero.module.scss';
+import { StaticMap } from "react-map-gl";
+import * as styles from "../sass/hero.module.scss";
 
-import GitHubButton from 'react-github-btn';
+import GitHubButton from "react-github-btn";
 
 const Hero: React.FC<any> = () => {
   return (
@@ -16,12 +16,21 @@ const Hero: React.FC<any> = () => {
             my specialty
           </h1>
           <p>
-          <strong>I AM</strong> an everlasting fire, burning furiously for outstanding designs and unforgettable experiences.</p><p><strong>I VALUE</strong> the design community and the open source community in order to breathe life into design.</p><p><strong>I WILL</strong> set realistic expectations, be honest and transparent, and remain professional and hospitable the whole way.
+            <strong>I AM</strong> an everlasting fire, burning furiously for
+            outstanding designs and unforgettable experiences.
+          </p>
+          <p>
+            <strong>I VALUE</strong> the design community and the open source
+            community in order to breathe life into design.
+          </p>
+          <p>
+            <strong>I WILL</strong> set realistic expectations, be honest and
+            transparent, and remain professional and hospitable the whole way.
           </p>
           <div className={styles.btnContainer}>
-            <GitHubButton 
-              href="https://github.com/alexthegoodman" 
-              data-size="large" 
+            <GitHubButton
+              href="https://github.com/alexthegoodman"
+              data-size="large"
               aria-label="Follow @alexthegoodman on GitHub"
             >
               Follow @alexthegoodman
@@ -34,14 +43,18 @@ const Hero: React.FC<any> = () => {
           <div className={styles.innerLayer}>
             <StaticMap
               mapboxApiAccessToken={
-                'pk.eyJ1IjoiYWxleHRoZWdvb2RtYW4iLCJhIjoiY2p5MzFpNjVwMHVtbTNtbWJxZGowaGMzaSJ9.yEJBVWS3cRBapCzZS7rI1g'
+                "pk.eyJ1IjoiYWxleHRoZWdvb2RtYW4iLCJhIjoiY2p5MzFpNjVwMHVtbTNtbWJxZGowaGMzaSJ9.yEJBVWS3cRBapCzZS7rI1g"
               }
               mapStyle="mapbox://styles/alexthegoodman/ckjyb2kai0hgb17nz2qogp2gs"
               width={1200}
               height={800}
-              latitude={42.956273}
-              longitude={-85.8001727}
-              zoom={10}
+              // latitude={42.956273}
+              // longitude={-85.8001727}
+              // zoom={10}
+              latitude={33.5295769}
+              longitude={-113.1072277}
+              zoom={7}
+              //37.6515573,-110.637912,6.27z
             />
           </div>
         </div>
@@ -56,7 +69,7 @@ const Hero: React.FC<any> = () => {
           <source src="/video/iphoneSideTrans_2.webm" type="video/webm" />
         </video>
       </div>
-      <svg height="0" style={{ position: 'absolute' }}>
+      <svg height="0" style={{ position: "absolute" }}>
         <defs>
           <clipPath id="curve1" transform="translate(0 1)">
             <path
@@ -66,7 +79,7 @@ const Hero: React.FC<any> = () => {
           </clipPath>
         </defs>
       </svg>
-      <svg height="0" style={{ position: 'absolute' }}>
+      <svg height="0" style={{ position: "absolute" }}>
         <defs>
           <clipPath id="curve2" transform="translate(0 1)">
             <path
