@@ -11,21 +11,14 @@ const Hero: React.FC<any> = () => {
       <div className={styles.contain}>
         <div className={styles.info}>
           <h1>
-            React is
-            <br />
-            my specialty
+            Alex Goodman
+            <em>React, TypeScript Specialist</em>
           </h1>
           <p>
-            <strong>I AM</strong> an everlasting fire, burning furiously for
-            outstanding designs and unforgettable experiences.
-          </p>
-          <p>
-            <strong>I VALUE</strong> the design community and the open source
-            community in order to breathe life into design.
-          </p>
-          <p>
-            <strong>I WILL</strong> set realistic expectations, be honest and
-            transparent, and remain professional and hospitable the whole way.
+            I am driven by outstanding designs and unforgettable experiences. 
+            I care deeply about the open source community and researching next-generation technology. </p><p>
+            Engineering is about so much more than code but also operations, strategy, and people. 
+            I seek to be involved with organizations that feel the same!
           </p>
           <div className={styles.btnContainer}>
             <GitHubButton
@@ -48,12 +41,19 @@ const Hero: React.FC<any> = () => {
               mapStyle="mapbox://styles/alexthegoodman/ckjyb2kai0hgb17nz2qogp2gs"
               width={1200}
               height={800}
+              // Grand Rapids, MI
               // latitude={42.956273}
               // longitude={-85.8001727}
               // zoom={10}
-              latitude={33.5295769}
-              longitude={-113.1072277}
-              zoom={7}
+              // Phoenix, AZ
+              // latitude={33.5295769}
+              // longitude={-113.1072277}
+              // zoom={7}
+              // Los Angeles, CA
+              latitude={33.9601613}
+              longitude={-118.4419205}
+              zoom={10}
+              //34.0201613,-118.6919205
               //37.6515573,-110.637912,6.27z
             />
           </div>
