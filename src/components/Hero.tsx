@@ -12,13 +12,17 @@ const Hero: React.FC<any> = () => {
         <div className={styles.info}>
           <h1>
             Alex Goodman
-            <em>React, TypeScript Specialist</em>
+            <em>Senior Frontend Engineer in Growth, Innovation, Design</em>
           </h1>
           <p>
-            I am driven by outstanding designs and unforgettable experiences. 
-            I care deeply about the open source community and researching next-generation technology. </p><p>
-            Engineering is about so much more than code but also operations, strategy, and people. 
-            I seek to be involved with organizations that feel the same!
+            I am driven by outstanding designs and unforgettable experiences. I
+            care deeply about the open source community and researching
+            next-generation technology.{" "}
+          </p>
+          <p>
+            Engineering is about so much more than code but also operations,
+            strategy, and people. I seek to be involved with organizations that
+            feel the same!
           </p>
           <div className={styles.btnContainer}>
             <GitHubButton

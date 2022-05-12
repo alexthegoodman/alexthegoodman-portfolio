@@ -1,6 +1,6 @@
 {
   "name": "alexthegoodman-portfolio",
-  "description": "Portfolio site for Alex Woodman",
+  "description": "Portfolio site for Alex Goodman",
   "license": "MIT",
   "version": "1.1.2",
   "scripts": {
@@ -8,6 +8,10 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve"
+  },
+  "volta": {
+    "node": "14.19.2",
+    "yarn": "1.19.2"
   },
   "dependencies": {
     "@babel/core": "7.12.3",
