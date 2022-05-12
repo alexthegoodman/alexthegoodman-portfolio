@@ -11,10 +11,10 @@
   },
   "volta": {
     "node": "14.19.2",
-    "yarn": "1.19.2"
+    "yarn": "1.13.0"
   },
   "engines": {
-    "node": "14.19.2"
+    "node": ">=14"
   },
   "dependencies": {
     "@babel/core": "7.12.3",
