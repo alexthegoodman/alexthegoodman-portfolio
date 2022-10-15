@@ -1,13 +1,13 @@
-import { graphql } from 'gatsby';
-import * as React from 'react';
-import AdditionalItem from '../components/AdditionalItem';
-import Footer from '../components/Footer';
-import Header from '../components/Header';
-import Hero from '../components/Hero';
-import Navigator from '../components/Navigator';
-import PortfolioItem from '../components/PortfolioItem';
-import QualificationItem from '../components/QualificationItem';
-import * as styles from '../sass/index.module.scss';
+import { graphql } from "gatsby";
+import * as React from "react";
+import AdditionalItem from "../components/AdditionalItem";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Navigator from "../components/Navigator";
+import PortfolioItem from "../components/PortfolioItem";
+import QualificationItem from "../components/QualificationItem";
+import * as styles from "../sass/index.module.scss";
 
 export const indexPageQuery = graphql`
   query IndexPageQuery {
@@ -19,6 +19,7 @@ export const indexPageQuery = graphql`
           description
           dateComplete
           badges
+          link
         }
         qualificationItems {
           title

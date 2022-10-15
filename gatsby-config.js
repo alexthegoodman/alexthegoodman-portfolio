@@ -9,15 +9,17 @@ module.exports = {
           "ClimateCheck brings the realities of climate change to your doorstep with a proprietary rating️ and report for any US property. The report details areas such as flood risk, fire risk, and storm risk.",
         dateComplete: "",
         badges: ["React", "TypeScript", "Next.js"],
+        link: "https://climatecheck.com",
       },
       {
-        image: "/img/reeviewr/beta.jpg",
+        image: "/img/commonplace/main.jpg",
         image2: "",
-        title: "Reeviewr - Free Music Feedback",
+        title: "CommonPlace - Get Free Feedback",
         description:
-          "Reeviewr is for people to get feedback. Share reviews on content and upload posts. Everybody gets the feedback and attention they deserve, and it's completely free.",
+          "CommonPlace is a social community where people exchange feedback on each others hobbies and interests such as painting, photography, or craft-making. Join for free!",
         dateComplete: "",
-        badges: ["React", "TypeScript", "GraphQL", "Prisma"],
+        badges: ["React", "TypeScript", "Next.js", "GraphQL", "Prisma"],
+        link: "https://commonplace.social",
       },
       {
         image: "/img/homscout/iphonePreview.png",
@@ -27,15 +29,17 @@ module.exports = {
           "LeadScout was a React Native mobile app designed for canvassers to identify, pin, and market to a chosen address when scouting potential homes for roof repairs.",
         dateComplete: "",
         badges: ["React Native", "JavaScript", "Node"],
+        link: "https://www.leadscoutapp.com",
       },
       {
         image: "/img/assets/group.png",
         image2: "",
         title: "Assets - Proofing and Collaboration",
         description:
-          "For iOS, Apple TV, and Web, all apps built with React and React Native. Assets was intended for designers and photographers to upload their work and get feedback from clients.",
+          "Assets was intended for designers and photographers to upload their work and get feedback from clients. For iOS, Apple TV, and Web, all apps built with React and React Native.",
         dateComplete: "",
         badges: ["React", "React Native", "JavaScript", "Node"],
+        link: "https://github.com/alexthegoodman/AssetsIOS",
       },
     ],
     qualificationItems: [
