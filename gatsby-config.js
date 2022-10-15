@@ -12,7 +12,7 @@ module.exports = {
         link: "https://climatecheck.com",
       },
       {
-        image: "/img/commonplace/main.jpg",
+        image: "/img/commonplace/mainSmall.jpg",
         image2: "",
         title: "CommonPlace - Get Free Feedback",
         description:
