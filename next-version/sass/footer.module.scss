@@ -1,0 +1,166 @@
+@import "vars";
+
+.footer {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  .cta {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    .left,
+    .right {
+      width: 50%;
+      box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.1);
+
+      h5,
+      h6 {
+        color: white;
+        font-size: 48px;
+        margin: 0 0 25px 0;
+        text-align: center;
+      }
+    }
+    .left {
+      height: 300px;
+      background: rgb(73, 73, 73);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .resumeInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .btn {
+          margin: 0 auto;
+          padding: 10px 25px;
+          font-size: 18px;
+        }
+      }
+    }
+    .right {
+      height: 350px;
+      background: rgb(65, 65, 65);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .contactInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        a {
+          color: white;
+          text-decoration: none;
+          font-size: 22px;
+          display: block;
+          text-align: center;
+
+          svg {
+            margin-right: 7px;
+          }
+
+          &:first-of-type {
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+  .finePrint {
+    padding: 35px 0;
+
+    .contain {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .left,
+    .right {
+      width: 50%;
+    }
+
+    .left {
+      span {
+        color: grey;
+        font-size: 18px;
+      }
+    }
+
+    .right {
+      display: flex;
+      justify-content: flex-end;
+
+      a {
+        margin-left: 15px;
+
+        svg {
+          color: grey;
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
+  }
+
+  @include desktopDown {
+    div.contain {
+      width: calc(100% - #{$mobile * 2});
+    }
+  }
+  @include middleDown {
+    .cta {
+      .left,
+      .right {
+        h5,
+        h6 {
+          font-size: 36px;
+          margin: 0 0 20px 0;
+        }
+        .contactInfo {
+          a {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+    div.contain {
+    }
+  }
+  @include tabletDown {
+    .cta {
+      flex-direction: column;
+
+      .left,
+      .right {
+        width: 100%;
+        box-shadow: none;
+        height: auto;
+        padding: 70px 0;
+      }
+    }
+  }
+  @include miniDown {
+    .finePrint {
+      div.contain {
+        flex-direction: column;
+
+        .left,
+        .right {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+        }
+        .left {
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+}
