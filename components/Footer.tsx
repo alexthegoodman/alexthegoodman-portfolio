@@ -19,7 +19,7 @@ const Footer: React.FC<any> = () => {
             <h5>Looking for a resume?</h5>
             <a
               className={styles.btn}
-              href="/alex-goodman-resume-2023-a.pdf"
+              href="/alex-goodman-resume-2023-b.pdf"
               download={true}
             >
               Download Resume
@@ -29,11 +29,12 @@ const Footer: React.FC<any> = () => {
         <div className={styles.right}>
           <div className={styles.contactInfo}>
             <h6>Hoping to get started?</h6>
-            <a href="tel:6264913348">
-              <FontAwesomeIcon icon={faPhone} /> 626-491-3348
+            <a className={styles.link} href="tel:6264913348">
+              <FontAwesomeIcon icon={faPhone} width="25px" /> 626-491-3348
             </a>
-            <a href="mailto:alexthegoodman@gmail.com">
-              <FontAwesomeIcon icon={faEnvelope} /> alexthegoodman@gmail.com
+            <a className={styles.link} href="mailto:alexthegoodman@gmail.com">
+              <FontAwesomeIcon icon={faEnvelope} width="25px" />{" "}
+              alexthegoodman@gmail.com
             </a>
           </div>
         </div>

@@ -24,7 +24,7 @@ const portfolioItems = [
       "CommonPlace is a social community where people exchange feedback on each others hobbies and interests such as painting, photography, or craft-making. Join for free!",
     dateComplete: "",
     badges: ["React", "TypeScript", "Next.js", "GraphQL", "Prisma"],
-    link: "https://commonplace.social",
+    link: "https://github.com/alexthegoodman/commonplace",
   },
   {
     image: "/img/homscout/iphonePreview.png",

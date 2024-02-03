@@ -23,7 +23,12 @@ const PortfolioItem: React.FC<any> = ({ item }) => {
 
           <div className={styles.buttonContainer}>
             <a href={item.link} target="_blank">
-              Visit Project <FontAwesomeIcon icon={faArrowRight} />
+              Visit Project{" "}
+              <FontAwesomeIcon
+                icon={faArrowRight}
+                width="15px"
+                style={{ marginLeft: "4px" }}
+              />
             </a>
           </div>
         </div>

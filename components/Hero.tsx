@@ -2,7 +2,7 @@
 
 import * as React from "react";
 // import ReactMapGL from 'react-map-gl';
-// import { StaticMap } from "react-map-gl";
+import Map from "react-map-gl";
 import styles from "../sass/hero.module.scss";
 
 import GitHubButton from "react-github-btn";
@@ -40,17 +40,21 @@ const Hero: React.FC<any> = () => {
       <div className={styles.visual}>
         <div className={styles.outerLayer}>
           <div className={styles.innerLayer}>
-            {/* <StaticMap
-              mapboxApiAccessToken={
+            <Map
+              mapboxAccessToken={
                 "pk.eyJ1IjoiYWxleHRoZWdvb2RtYW4iLCJhIjoiY2p5MzFpNjVwMHVtbTNtbWJxZGowaGMzaSJ9.yEJBVWS3cRBapCzZS7rI1g"
               }
               mapStyle="mapbox://styles/alexthegoodman/ckjyb2kai0hgb17nz2qogp2gs"
-              width={1200}
-              height={800}
+              style={{
+                width: 1200,
+                height: 800,
+              }}
               // Grand Rapids, MI
-              latitude={42.956273}
-              longitude={-85.8001727}
-              zoom={10}
+              initialViewState={{
+                latitude: 42.956273,
+                longitude: -85.8001727,
+                zoom: 10,
+              }}
               // Phoenix, AZ
               // latitude={33.5295769}
               // longitude={-113.1072277}
@@ -61,7 +65,7 @@ const Hero: React.FC<any> = () => {
               // zoom={10}
               //34.0201613,-118.6919205
               //37.6515573,-110.637912,6.27z
-            /> */}
+            />
           </div>
         </div>
         <video

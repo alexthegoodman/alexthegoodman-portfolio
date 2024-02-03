@@ -58,7 +58,9 @@
           color: white;
           text-decoration: none;
           font-size: 22px;
-          display: block;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           text-align: center;
 
           svg {
