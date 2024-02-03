@@ -1,0 +1,19 @@
+.header {
+  .innerHeader {
+    display: flex;
+    flex-direction: row;
+  }
+  .logo {
+    width: 200px;
+
+    img {
+      display: block;
+      width: 100%;
+    }
+  }
+  h1 {
+    font-family: masqualero, serif;
+    font-size: 74px;
+    line-height: 74px;
+  }
+}
