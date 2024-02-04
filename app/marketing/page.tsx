@@ -26,7 +26,7 @@ const portfolioItems = [
       "Involving both ads and social, Our Virtue is focused on building awareness and community while driving thousands of app installs.",
     dateComplete: "",
     badges: ["Ads", "Social"],
-    link: "",
+    link: "https://our-virtue.com",
   },
   {
     image: "/img/ads/commonplace-ad1.jpeg",
