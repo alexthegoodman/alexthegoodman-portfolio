@@ -7,40 +7,17 @@ import styles from "../sass/hero.module.scss";
 
 import GitHubButton from "react-github-btn";
 
-const Hero: React.FC<any> = () => {
+const Hero: React.FC<any> = ({ info = <></>, media = <></> }) => {
   return (
     <section className={styles.hero}>
       <div className={styles.contain}>
-        <div className={styles.info}>
-          <h1>
-            Hey! I&apos;m <br /> Alex Goodman
-            <em>Full Stack Engineer</em>
-          </h1>
-          <p>
-            I&apos;m an avid TypeScript / JavaScript developer, and I wake up
-            everyday to leverage that creating great applications with React,
-            React Native, Node, Nexus, Prisma, and PostgreSQL.
-          </p>
-          <p>
-            Engineering for clients is about rapid iteration, fast delivery, and
-            a client-first service approach, while remaining mindful of key
-            quality areas such as security, performance, and scalability.
-          </p>
-          <div className={styles.btnContainer}>
-            <GitHubButton
-              href="https://github.com/alexthegoodman"
-              data-size="large"
-              aria-label="Follow @alexthegoodman on GitHub"
-            >
-              Follow @alexthegoodman
-            </GitHubButton>
-          </div>
-        </div>
+        <div className={styles.info}>{info}</div>
       </div>
       <div className={styles.visual}>
         <div className={styles.outerLayer}>
           <div className={styles.innerLayer}>
             <Map
+              interactive={false}
               mapboxAccessToken={
                 "pk.eyJ1IjoiYWxleHRoZWdvb2RtYW4iLCJhIjoiY2p5MzFpNjVwMHVtbTNtbWJxZGowaGMzaSJ9.yEJBVWS3cRBapCzZS7rI1g"
               }
@@ -68,16 +45,7 @@ const Hero: React.FC<any> = () => {
             />
           </div>
         </div>
-        <video
-          autoPlay={true}
-          className="mediaVideo"
-          id="model1"
-          loop={true}
-          muted={true}
-          preload="auto"
-        >
-          <source src="/video/iphoneSideTrans_2.webm" type="video/webm" />
-        </video>
+        {media}
       </div>
       <svg height="0" style={{ position: "absolute" }}>
         <defs>

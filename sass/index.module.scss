@@ -6,6 +6,15 @@
   margin: 0 auto;
 }
 
+.heroImage {
+  transform: skew(0deg, 5deg);
+  position: absolute;
+  top: 100px;
+  right: 325px;
+  width: 400px;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2);
+  border: 10px solid white;
+}
 
 .portfolio,
 .qualifications {

@@ -6,11 +6,7 @@ const Header: React.FC<any> = () => {
     <header className={styles.header}>
       <div className={styles.contain}>
         <div className={styles.logo}>
-          <img
-            src="/img/logo.svg"
-            alt="Alex Woodman - Senior Front End Engineer"
-            title="Alex Woodman - Senior Front End Engineer"
-          />
+          <img src="/img/logo.svg" alt="Alex Goodman" title="Alex Goodman" />
           {/* <h2>
             <span>Alex The</span>
             <span>Goodman</span>
@@ -19,14 +15,14 @@ const Header: React.FC<any> = () => {
         <div className={styles.navigation}>
           <nav>
             <ul>
-              <li>
+              {/* <li>
                 <a
                   href="https://www.facebook.com/alexthegoodman"
                   target="_blank"
                 >
                   React Tips and Links
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
                   className={styles.btn}

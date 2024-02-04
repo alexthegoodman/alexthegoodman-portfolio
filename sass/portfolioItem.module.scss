@@ -7,6 +7,13 @@
     padding: 25px;
     border-radius: 15px;
 
+    h2 {
+      font-size: 48px;
+      line-height: 58px;
+      margin: 0 0 0px 0;
+      padding: 100px 50px;
+    }
+
     .visual {
       height: 300px;
       overflow: hidden;
@@ -16,7 +23,7 @@
         // width: 100%;
         max-width: 100%;
         border-radius: 15px;
-        max-height: 400px;
+        // max-height: 400px;
         width: auto;
         margin: 0 auto;
         display: block;

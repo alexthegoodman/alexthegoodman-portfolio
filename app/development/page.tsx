@@ -1,9 +1,12 @@
+"use client";
+
 import Header from "@/components/Header";
 import styles from "../../sass/index.module.scss";
 import Hero from "@/components/Hero";
 import PortfolioItem from "@/components/PortfolioItem";
 import QualificationItem from "@/components/QualificationItem";
 import Footer from "@/components/Footer";
+import GitHubButton from "react-github-btn";
 
 const portfolioItems = [
   {
@@ -105,7 +108,49 @@ export default function Development() {
   return (
     <section className={styles.outerContainer}>
       <Header />
-      <Hero />
+      <Hero
+        info={
+          <>
+            <h1>
+              Hey! I&apos;m <br /> Alex Goodman
+              <em>Full Stack Engineer</em>
+            </h1>
+            <p>
+              I&apos;m an avid TypeScript / JavaScript developer, and I wake up
+              everyday to leverage that creating great applications with React,
+              React Native, Node, Nexus, Prisma, and PostgreSQL.
+            </p>
+            <p>
+              Engineering for clients is about rapid iteration, fast delivery,
+              and a client-first service approach, while remaining mindful of
+              key quality areas such as security, performance, and scalability.
+            </p>
+            <div style={{ marginTop: "25px" }}>
+              <GitHubButton
+                href="https://github.com/alexthegoodman"
+                data-size="large"
+                aria-label="Follow @alexthegoodman on GitHub"
+              >
+                Follow @alexthegoodman
+              </GitHubButton>
+            </div>
+          </>
+        }
+        media={
+          <>
+            <video
+              autoPlay={true}
+              className="mediaVideo"
+              id="model1"
+              loop={true}
+              muted={true}
+              preload="auto"
+            >
+              <source src="/video/iphoneSideTrans_2.webm" type="video/webm" />
+            </video>
+          </>
+        }
+      />
       <section className={styles.portfolio}>
         <div className={styles.contain}>
           <div className={styles.grid}>
