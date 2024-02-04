@@ -1,6 +1,8 @@
 "use client";
 
-const InnerLayout = ({ children }) => {
+import { ReactNode } from "react";
+
+const InnerLayout = ({ children = <></> }: { children: ReactNode }) => {
   return (
     <>
       {children}
