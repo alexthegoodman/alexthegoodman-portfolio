@@ -82,3 +82,46 @@
     }
   }
 }
+
+.pcbHero {
+  margin-top: 75px;
+  margin-bottom: 50px;
+  padding: 100px 0;
+
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .left {
+    width: 50%;
+    padding-right: 50px;
+
+    h1 {
+      font-size: 64px;
+      margin: 0;
+    }
+    h2 {
+      font-size: 36px;
+      margin: 10px 0;
+    }
+    p {
+      font-size: 22px;
+      line-height: 42px;
+    }
+    h1,
+    h2,
+    p {
+      font-family: "forma-djr-mono", serif;
+    }
+  }
+  .right {
+    width: 50%;
+
+    img {
+      transform: skew(0deg, 10deg);
+    }
+  }
+}

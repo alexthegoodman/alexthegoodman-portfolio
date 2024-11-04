@@ -4,54 +4,32 @@ import styles from "./page.module.scss";
 import Link from "next/link";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <>
-      <header className={styles.header}>
-        <div className={styles.innerHeader}>
-          <div className={styles.logo}>
-            <img
-              src="/img/logo.svg"
-              alt="Alex Woodman - Senior Front End Engineer"
-              title="Alex Woodman - Senior Front End Engineer"
-            />
+      <Header />
+      <section className={styles.pcbHero}>
+        <div className={styles.contain}>
+          <div className={styles.left}>
+            <h1>
+              Hi, I'm <br />
+              Alex Woodman
+            </h1>
+            <h2>PCB Designer</h2>
+            <p>
+              From 10+ years as a software developer, I gained an understanding
+              for logic, mathematics, and module selection.
+            </p>
+            <p>
+              Now, I'm excited to leverage my talents to design and layout
+              circuits, and I am actively seeking great mentors.
+            </p>
           </div>
-          <div className={styles.statement}>
-            <h1>What are you looking for?</h1>
+          <div className={styles.right}>
+            <img src="/img/pcb/board2.png" />
           </div>
-        </div>
-      </header>
-      <section className={styles.services}>
-        <div className={styles.innerServices}>
-          <section className={styles.service}>
-            <div className={styles.innerService}>
-              <h2>Full-Stack Development</h2>
-              <p>Build and maintain web and mobile applications</p>
-              <Link className={styles.link} href="/development">
-                View Portfolio{" "}
-                <FontAwesomeIcon
-                  icon={faArrowRight}
-                  width="15px"
-                  style={{ marginLeft: "4px" }}
-                />
-              </Link>
-            </div>
-          </section>
-          <section className={styles.service}>
-            <div className={styles.innerService}>
-              <h2>Digital Marketing</h2>
-              <p>Create and manage your ads, content, and social</p>
-              <Link className={styles.link} href="/marketing">
-                View Portfolio{" "}
-                <FontAwesomeIcon
-                  icon={faArrowRight}
-                  width="15px"
-                  style={{ marginLeft: "4px" }}
-                />
-              </Link>
-            </div>
-          </section>
         </div>
       </section>
       <Footer />
