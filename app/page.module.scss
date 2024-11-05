@@ -85,8 +85,8 @@
 
 .pcbHero {
   margin-top: 75px;
-  margin-bottom: 50px;
-  padding: 100px 0;
+  margin-bottom: 0px;
+  padding: 100px 0 25px 0;
 
   .contain {
     width: 1200px;
@@ -101,11 +101,14 @@
 
     h1 {
       font-size: 64px;
+      line-height: 78px;
       margin: 0;
+      font-weight: 600;
     }
     h2 {
       font-size: 36px;
       margin: 10px 0;
+      font-weight: 400;
     }
     p {
       font-size: 22px;
@@ -123,5 +126,77 @@
     img {
       transform: skew(0deg, 10deg);
     }
+  }
+}
+
+.pcbInfo {
+  padding: 50px 0 50px 0;
+
+  .contain {
+    width: 730px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h4 {
+    font-family: "forma-djr-mono", serif;
+    font-size: 36px;
+    margin: 0 0 10px 0;
+  }
+
+  ul li {
+    font-family: "forma-djr-mono", serif;
+    font-size: 24px;
+  }
+
+  .top {
+    // width: 50%;
+    // padding-right: 50px;
+
+    // h1 {
+    //   font-size: 64px;
+    //   margin: 0;
+    // }
+    // h2 {
+    //   font-size: 36px;
+    //   margin: 10px 0;
+    // }
+    // p {
+    //   font-size: 22px;
+    //   line-height: 42px;
+    // }
+    // h1,
+    // h2,
+    // p {
+    //   font-family: "forma-djr-mono", serif;
+    // }
+  }
+  .bottom {
+    // width: 50%;
+
+    // img {
+    //   transform: skew(0deg, 10deg);
+    // }
+  }
+}
+
+.gallery {
+  margin-bottom: 50px;
+
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  h3 {
+    font-family: "forma-djr-mono", serif;
+    font-size: 36px;
   }
 }
