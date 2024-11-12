@@ -14,8 +14,8 @@ export default function Home() {
         <div className={styles.contain}>
           <div className={styles.left}>
             <h1>
-              Hi, I'm <br />
-              Alex Woodman
+              {"Hi, I'm"} <br />
+              {"Alex Woodman"}
             </h1>
             <h2>PCB Designer</h2>
             <p>
@@ -23,8 +23,8 @@ export default function Home() {
               for logic, mathematics, and module selection.
             </p>
             <p>
-              Now, I'm excited to leverage my talents to design and layout
-              circuits and am actively seeking mentors.
+              {`Now, I'm excited to leverage my talents to design and layout
+              circuits and am actively seeking mentors.`}
             </p>
           </div>
           <div className={styles.right}>
