@@ -254,3 +254,65 @@
     }
   }
 }
+
+.launchHero {
+  margin-top: 75px;
+  margin-bottom: 0px;
+  padding: 100px 0 100px 0;
+
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h1 {
+      font-size: 48px;
+      line-height: 58px;
+    }
+    a {
+      font-size: 24px;
+      color: $red;
+      text-decoration: none;
+      text-align: center;
+    }
+  }
+
+  .features {
+    display: flex;
+    flex-direction: row;
+
+    .feature {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: calc(100% / 3);
+      color: $red;
+      gap: 20px;
+    }
+  }
+
+  @include desktopDown {
+    .contain {
+      width: 100%;
+    }
+  }
+  @include tabletDown {
+    .contain {
+      h1 {
+        text-align: center;
+      }
+
+      .features {
+        flex-direction: column;
+        gap: 20px;
+
+        .feature {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
