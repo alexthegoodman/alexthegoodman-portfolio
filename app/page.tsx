@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HomeHero from "@/components/new/HomeHero";
 import PortfolioItem from "@/components/new/PortfolioItem";
+import Pricing from "@/components/new/Pricing";
 
 export default function Home() {
   return (
@@ -72,6 +73,8 @@ export default function Home() {
         ]}
         githubLink="https://github.com/alexthegoodman/commonplace"
       />
+
+      <Pricing />
 
       <Footer />
     </div>
