@@ -5,6 +5,12 @@ import styles from "../../sass/new/pricing.module.scss";
 
 import { Transition } from "react-transition-group";
 import { useRef } from "react";
+import {
+  CheckCircleIcon,
+  DesktopIcon,
+  PaintBrushHouseholdIcon,
+  PaintBucketIcon,
+} from "@phosphor-icons/react";
 
 const duration = 300;
 
@@ -85,46 +91,99 @@ export default function Pricing() {
         <div className={styles.tiers}>
           <div className={styles.browse}>
             <div className={styles.tier} onClick={() => selectTier(0)}>
-              <h3>1-3 Page Website</h3>
-              <p>$300</p>
+              <PaintBrushHouseholdIcon size={24} />
+              <div className={styles.info}>
+                <h3>1-3 Page Website</h3>
+                <p>$300</p>
+              </div>
             </div>
             <div className={styles.tier} onClick={() => selectTier(1)}>
-              <h3>10+ Page Website</h3>
-              <p>$1000+</p>
+              <PaintBucketIcon size={24} />
+              <div className={styles.info}>
+                <h3>10+ Page Website</h3>
+                <p>$1000+</p>
+              </div>
             </div>
             <div className={styles.tier} onClick={() => selectTier(2)}>
-              <h3>Desktop App or Mobile App</h3>
-              <p>$500+</p>
+              <DesktopIcon size={24} />
+              <div className={styles.info}>
+                <h3>Desktop App or Mobile App</h3>
+                <p>$500+</p>
+              </div>
             </div>
           </div>
           <div className={styles.details}>
             <PricingTierDetails in={selectedTier === 0}>
               <h3>1-3 Page Website - $300</h3>
               <ul>
-                <li>Custom design tailored to your brand</li>
-                <li>Responsive layout for all devices</li>
-                <li>SEO optimization</li>
-                <li>Contact form integration</li>
-                <li>Deployment to host</li>
-                <li>Payload CMS Integration (more options at next tier)</li>
+                <li>
+                  <CheckCircleIcon />{" "}
+                  <span>Custom design tailored to your brand</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>Responsive layout for all devices</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>SEO optimization</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>Contact form integration</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>Deployment to host</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>
+                    Payload CMS Integration (more options at next tier)
+                  </span>
+                </li>
               </ul>
             </PricingTierDetails>
             <PricingTierDetails in={selectedTier === 1}>
               <h3>10+ Page Website - $1000+</h3>
               <ul>
-                <li>All features of the 1-3 Page Website</li>
-                <li>Advanced SEO strategies</li>
-                <li>WordPress, Craft CMS, or Payload CMS Integration</li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>All features of the 1-3 Page Website</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>Advanced SEO strategies</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>WordPress, Craft CMS, or Payload CMS Integration</span>
+                </li>
               </ul>
             </PricingTierDetails>
             <PricingTierDetails in={selectedTier === 2}>
               <h3>Desktop App or Mobile App - $500+</h3>
               <ul>
-                <li>Cross-platform compatibility</li>
-                <li>Intuitive user interface design</li>
-                <li>Performance optimization</li>
-                <li>Backend integration (if needed)</li>
-                <li>App store deployment assistance</li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>Cross-platform compatibility</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>Intuitive user interface design</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>Performance optimization</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>Backend integration (if needed)</span>
+                </li>
+                <li>
+                  <CheckCircleIcon />
+                  <span>App store deployment assistance</span>
+                </li>
               </ul>
             </PricingTierDetails>
           </div>

@@ -1,6 +1,8 @@
 @import "vars";
 
 .footer {
+  margin-top: 70px;
+
   .contain {
     width: 1200px;
     margin: 0 auto;
@@ -18,9 +20,11 @@
       h5,
       h6 {
         color: white;
-        font-size: 48px;
+        // font-size: 48px;
+        font-size: 36px;
         margin: 0 0 25px 0;
         text-align: center;
+        font-family: $headline;
       }
     }
     .left {
@@ -57,7 +61,8 @@
         a {
           color: white;
           text-decoration: none;
-          font-size: 22px;
+          // font-size: 22px;
+          font-size: 18px;
           display: flex;
           align-items: center;
           justify-content: center;

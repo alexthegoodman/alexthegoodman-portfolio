@@ -1,6 +1,8 @@
 @import "../vars";
 
 .pricing {
+  margin-top: 70px;
+
   .inner {
     // width: $desktop;
     // margin: 0 auto;
@@ -12,6 +14,7 @@
       h2 {
         font-family: $headline;
         margin-bottom: 15px;
+        font-size: 28px;
       }
 
       p {
@@ -41,6 +44,11 @@
           //   background-clip: text;
           //   -webkit-background-clip: text;
 
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 15px;
+
           &:before {
             background: linear-gradient(to right, $gold1, $gold2);
             transition: opacity 0.2s;
@@ -56,14 +64,24 @@
             z-index: 1;
           }
 
-          h3 {
-            font-size: 18px;
-            // -webkit-text-fill-color: transparent;
+          .info {
             position: relative;
             z-index: 2;
           }
+
+          h3 {
+            font-size: 18px;
+            margin: 0;
+            padding: 0;
+            // -webkit-text-fill-color: transparent;
+          }
           p {
             font-size: 14px;
+            padding: 0;
+            margin: 0;
+          }
+
+          svg {
             position: relative;
             z-index: 2;
           }
@@ -78,6 +96,11 @@
             &:before {
               opacity: 1;
               transition: opacity 0.2s;
+            }
+
+            svg {
+              color: white;
+              fill: white;
             }
           }
         }
@@ -105,6 +128,18 @@
 
           li {
             font-size: 14px;
+            display: flex;
+            align-items: flex-start;
+
+            svg {
+              position: relative;
+              top: 2px;
+            }
+            span {
+              width: calc(100% - 34px);
+              display: block;
+              padding-left: 6px;
+            }
           }
         }
       }
