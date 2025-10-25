@@ -1,0 +1,304 @@
+@import "../vars";
+
+// Variables
+$color-black: #000000;
+$color-white: #ffffff;
+$color-gray-300: #d1d5db;
+$color-gray-500: #6b7280;
+$color-gray-600: #4b5563;
+
+$transition-standard: 0.3s ease;
+$transition-fast: 0.2s ease;
+
+// Main Container
+.testimonialShowcase {
+  min-height: 100vh;
+  //   background-color: $color-white;
+  color: $color-black;
+  padding: 2rem;
+
+  .container {
+    max-width: $desktop;
+    margin: 0 auto;
+  }
+}
+
+// Header Section
+.header {
+  border-bottom: 2px solid $color-black;
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: -0.025em;
+    margin-bottom: 0.5rem;
+    line-height: 1;
+  }
+
+  .subtitle {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $color-gray-600;
+  }
+}
+
+// Summary Section
+.summarySection {
+  margin-bottom: 4rem;
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid $color-gray-300;
+    padding-bottom: 0.75rem;
+  }
+
+  .summaryGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .summaryCard {
+    border: 1px solid $color-black;
+    padding: 1.5rem;
+    transition: all $transition-standard;
+    border-radius: 5px;
+
+    // &:hover {
+    //   background-color: $color-black;
+    //   color: $color-white;
+    // }
+
+    h3 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin: 0 0 0.75rem 0;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 0.875rem;
+      line-height: 1.625;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+// Testimonial Section
+.testimonialSection {
+  margin-bottom: 4rem;
+
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid $color-gray-300;
+    padding-bottom: 0.75rem;
+
+    .counter {
+      font-size: 0.875rem;
+      margin-left: 1rem;
+      color: $color-gray-500;
+    }
+  }
+}
+
+.testimonialCarouselContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.testimonialCard {
+  position: relative;
+
+  .testimonialCarouselHover {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+  }
+
+  .testimonialCarousel {
+    display: flex;
+    position: relative;
+    z-index: 1;
+  }
+
+  &:hover {
+    .testimonialCarouselHover {
+      display: flex;
+    }
+  }
+}
+
+.testimonialCarousel,
+.testimonialCarouselHover {
+  position: relative;
+  border: 2px solid $color-black;
+  padding: 3rem;
+  //   min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 5px;
+  max-width: calc(50vw - 220px);
+  background-color: $color-white;
+
+  .quoteIcon {
+    position: absolute;
+    top: 2.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    color: $color-gray-300;
+  }
+
+  .testimonialContent {
+    position: relative;
+    z-index: 10;
+    // margin-top: 2rem;
+
+    .testimonialText,
+    .testimonialTextHover {
+      font-size: 1.125rem;
+      line-height: 1.625;
+      margin-bottom: 1.5rem;
+      font-weight: 300;
+      font-style: italic;
+      display: block;
+      padding-right: 100px;
+    }
+
+    .testimonialHighlight {
+      border-top: 1px solid $color-gray-300;
+      padding-top: 1rem;
+
+      p {
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+// Carousel Controls
+.carouselControls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+
+  .navButton {
+    border: 1px solid $color-black;
+    padding: 0.75rem;
+    background-color: $color-white;
+    cursor: pointer;
+    transition: all $transition-fast;
+    border-radius: 5px;
+
+    &:hover {
+      background-color: $color-black;
+      color: $color-white;
+
+      svg {
+        color: $color-white;
+      }
+    }
+
+    svg {
+      width: 1.25rem;
+      height: 1.25rem;
+      display: block;
+    }
+  }
+
+  .dotIndicators {
+    display: flex;
+    gap: 0.5rem;
+
+    .dot {
+      width: 0.5rem;
+      height: 0.5rem;
+      border: 1px solid $color-black;
+      background-color: $color-white;
+      cursor: pointer;
+      transition: all $transition-fast;
+      border-radius: 5px;
+
+      &:hover {
+        background-color: $color-gray-300;
+      }
+
+      &.active {
+        background-color: $color-black;
+      }
+    }
+  }
+}
+
+// Footer Stats
+.footerStats {
+  border-top: 2px solid $color-black;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  text-align: center;
+
+  .stat {
+    .statNumber {
+      font-size: 2.25rem;
+      font-weight: 300;
+      margin-bottom: 0.5rem;
+      line-height: 1;
+    }
+
+    .statLabel {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: $color-gray-600;
+    }
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 767px) {
+  .testimonialShowcase {
+    padding: 1rem;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .testimonialCarousel {
+    padding: 2rem 1.5rem;
+  }
+
+  .footerStats {
+    gap: 1rem;
+
+    .stat .statNumber {
+      font-size: 1.75rem;
+    }
+  }
+}
