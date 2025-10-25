@@ -6,7 +6,7 @@ const Header: React.FC<any> = () => {
     <header className={styles.header}>
       <div className={styles.contain}>
         <div className={styles.logo}>
-          <img src="/img/logo.svg" alt="Alex Goodman" title="Alex Goodman" />
+          <img src="/img/logo_w.svg" alt="Alex Goodman" title="Alex Goodman" />
           {/* <h2>
             <span>Alex The</span>
             <span>Goodman</span>
@@ -25,7 +25,7 @@ const Header: React.FC<any> = () => {
               </li> */}
               <li>
                 <a
-                  className={styles.btn}
+                  className={styles.highlightLink}
                   href="mailto:alexthegoodman@gmail.com"
                 >
                   Start a Project

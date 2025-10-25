@@ -1,9 +1,9 @@
 /* Breakpoints */
-$phone: 480px;
-$mini: 620px;
-$tablet: 768px;
-$middle: 1000px;
-$desktop: 1250px;
+$phone: calc(100vw - 10px);
+$mini: calc(100vw - 15px);
+$tablet: calc(100vw - 25px);
+$middle: calc(100vw - 50px);
+$desktop: calc(100vw - 100px);
 
 /* Social */
 $facebook: #306199;
