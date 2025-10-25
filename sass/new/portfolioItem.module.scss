@@ -1,0 +1,72 @@
+@import "../vars";
+
+.portfolioItem {
+  padding: 50px 0;
+
+  .itemInner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: $desktop;
+    margin: 0 auto;
+
+    &.rightSide {
+      flex-direction: row-reverse;
+
+      .itemImage {
+        transform: perspective(1000px) rotateY(-25deg);
+      }
+    }
+
+    .left {
+      width: 55%;
+    }
+
+    .right {
+      width: 45%;
+    }
+    .itemImage {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      transform: perspective(1000px) rotateY(25deg);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    }
+    .itemTitle {
+      font-family: $headline;
+      font-size: 36px;
+      margin-bottom: 6px;
+    }
+    .tagline {
+      font-size: 18px;
+      color: $textGrey;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    .itemDescription {
+      font-size: 18px;
+      line-height: 1.6;
+      color: $textGrey;
+    }
+    .featuresList {
+      margin-top: 10px;
+
+      list-style-type: none;
+      padding-left: 0;
+
+      li {
+        display: block;
+        margin-bottom: 6px;
+        font-size: 18px;
+        color: $textGrey;
+      }
+    }
+    a {
+      color: $textGrey;
+      text-decoration: underline;
+      font-size: 20px;
+    }
+  }
+}

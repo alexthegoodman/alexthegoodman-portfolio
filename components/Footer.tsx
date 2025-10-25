@@ -13,7 +13,7 @@ const Footer: React.FC<any> = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.cta}>
+      {/* <div className={styles.cta}>
         <div className={styles.left}>
           <div className={styles.resumeInfo}>
             <h5>Looking for a resume?</h5>
@@ -38,7 +38,7 @@ const Footer: React.FC<any> = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className={styles.finePrint}>
         <div className={styles.contain}>
           <div className={styles.left}>
