@@ -59,6 +59,11 @@ export default function HomeHero() {
     }
 
     var program = gl.createProgram();
+
+    if (!program) {
+      return;
+    }
+
     gl.attachShader(program, vertexShader);
     gl.attachShader(program, fragment);
     gl.transformFeedbackVaryings(
