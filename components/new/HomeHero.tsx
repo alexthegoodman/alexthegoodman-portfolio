@@ -90,7 +90,8 @@ export default function HomeHero() {
     // SET UP GEOMETRY
     //////////////////////////
 
-    var NUM_PARTICLES = 200000;
+    // var NUM_PARTICLES = 200000;
+    var NUM_PARTICLES = 100000;
     var positionData = new Float32Array(NUM_PARTICLES * 3);
     var velocityData = new Float32Array(NUM_PARTICLES * 3);
     var colorData = new Float32Array(NUM_PARTICLES * 3);
@@ -211,7 +212,7 @@ export default function HomeHero() {
     var massUniformData = new Float32Array(16); // 3 factors + 3 vec4 positions = 3 * 4 + 3 * 16 = 64 bytes, which is 16 floats.
 
     // Factors (Indices 0, 1, 2)
-    massUniformData[0] = 0.00015; // mass1Factor (mouse-controlled) - Increased factor for stronger pull
+    massUniformData[0] = 0.000015; // mass1Factor (mouse-controlled) - Increased factor for stronger pull
     massUniformData[1] = Math.random() / 30000; // mass2Factor (random)
     massUniformData[2] = Math.random() / 30000; // mass3Factor (random)
 
