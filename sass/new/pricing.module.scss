@@ -23,6 +23,10 @@
         max-width: 600px;
         margin: 0 auto;
       }
+
+      @include tabletDown {
+        padding: 0 20px;
+      }
     }
     .tiers {
       display: flex;
@@ -32,9 +36,26 @@
       max-width: 800px;
       margin: 0 auto;
 
+      @include tabletDown {
+        flex-direction: column;
+        max-width: 90%;
+
+        .browse {
+          width: 100%;
+          border-right: none;
+          border-bottom: 2px solid #afafaf;
+        }
+      }
+
       .browse {
         width: 300px;
         border-right: 2px solid #afafaf;
+
+        @include tabletDown {
+          width: 100%;
+          border-right: none;
+          border-bottom: 2px solid #afafaf;
+        }
 
         .tier {
           background: transparent;
@@ -112,6 +133,11 @@
         padding: 25px;
         position: relative;
         width: calc(100% - 300px);
+
+        @include tabletDown {
+          height: 250px;
+          width: calc(100% - 50px);
+        }
 
         .tierDetails {
           position: absolute;

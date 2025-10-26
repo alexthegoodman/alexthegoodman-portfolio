@@ -21,6 +21,12 @@ $transition-fast: 0.2s ease;
     max-width: $desktop;
     margin: 0 auto;
   }
+
+  @include tabletDown {
+    .container {
+      max-width: 100%;
+    }
+  }
 }
 
 // Header Section
@@ -121,6 +127,11 @@ $transition-fast: 0.2s ease;
   gap: 20px;
   flex-wrap: wrap;
   position: relative;
+
+  @include tabletDown {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 
 .testimonialCard {
@@ -159,6 +170,11 @@ $transition-fast: 0.2s ease;
   border-radius: 5px;
   max-width: calc(50vw - 220px);
   background-color: $color-white;
+
+  @include tabletDown {
+    max-width: 100%;
+    padding: 2rem;
+  }
 
   .quoteIcon {
     position: absolute;

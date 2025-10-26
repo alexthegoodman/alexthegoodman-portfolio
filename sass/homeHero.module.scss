@@ -12,6 +12,15 @@
   mask-size: cover;
   mask-position: 0 bottom;
 
+  // Adjust height for smaller screens
+  @include tabletDown {
+    height: 55vh;
+  }
+
+  @include miniDown {
+    height: 40vh;
+  }
+
   .heroInner {
     position: relative;
     z-index: 10;
@@ -20,16 +29,48 @@
     width: $desktop;
     margin: 0 auto;
 
+    // Make width flexible and add padding on smaller screens
+    @include desktopDown {
+      width: 90%; // Use a percentage to maintain space
+      height: auto; // Let content dictate height
+      padding: 0 15px; // Add side padding for smaller viewports
+    }
+
+    // Reduce height further for mobile to save screen space
+    @include miniDown {
+      width: 90%;
+      height: 170px;
+    }
+
     h1 {
       color: white;
       font-size: 68px;
       padding-left: 35vw;
       font-weight: 300;
+      display: block;
 
       span {
         font-family: $headline;
         font-style: italic;
         font-weight: 600;
+      }
+
+      // Adjust padding and font size for smaller screens
+      @include middleDown {
+        font-size: 48px;
+        padding-left: 5vw; // Reduce padding
+      }
+
+      @include tabletDown {
+        font-size: 40px;
+        padding-left: 0; // Remove padding to let text align on tablet/mobile
+        text-align: center; // Center text when padding is removed
+        width: 100%; // Ensure it takes full width for centering
+      }
+
+      @include miniDown {
+        font-size: 32px; // Mobile font size
+        line-height: 1.2;
       }
     }
   }

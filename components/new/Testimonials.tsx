@@ -94,9 +94,9 @@ const TestimonialShowcase = () => {
         <div className={styles.testimonialSection}>
           <h2 className="text-2xl font-light mb-8 border-b border-gray-300 pb-3">
             Client Testimonials
-            <span className={styles.counter}>
+            {/* <span className={styles.counter}>
               {currentIndex + 1} / {testimonials.length}
-            </span>
+            </span> */}
           </h2>
 
           <div className={styles.testimonialCarouselContainer}>

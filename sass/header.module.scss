@@ -11,6 +11,10 @@
     width: $desktop;
     margin: 0 auto;
     display: table;
+
+    @include tabletDown {
+      width: 90%;
+    }
   }
 
   .logo {

@@ -26,6 +26,25 @@
     .right {
       width: 45%;
     }
+
+    @include tabletDown {
+      width: 90%;
+      flex-direction: column;
+
+      &.rightSide {
+        flex-direction: column;
+      }
+
+      .left,
+      .right {
+        width: 100%;
+      }
+
+      .itemImage {
+        transform: perspective(1000px) rotateY(0deg);
+      }
+    }
+
     .itemImage {
       display: block;
       max-width: 100%;

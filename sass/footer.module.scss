@@ -116,7 +116,7 @@
     }
   }
 
-  @include desktopDown {
+  @media screen and (max-width: 1200px) {
     div.contain {
       width: calc(100% - #{$mobile * 2});
     }
