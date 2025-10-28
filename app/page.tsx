@@ -75,9 +75,55 @@ export default function Home() {
         githubLink="https://github.com/alexthegoodman/commonplace"
       />
 
+      <PortfolioItem
+        side="left"
+        imageSrc="/img/ml/loss.png"
+        title="CommonMotion 2D"
+        tagline="Generate 2D Animation Motion Paths"
+        description={`CommonMotion 2D, trained on an in-house dataset of motion paths, generates animations with solid enter / exit motions, but a stronger data regimen is needed for more complex animations.`}
+        points={[
+          [
+            `Hyper-Efficient VAE-LSTM Architecture`,
+            `Runs on CPU with minimal RAM overhead`,
+          ],
+          [
+            `Data Adherence via Attention Mechanism`,
+            `Ensures generated motions understand training data`,
+          ],
+          [
+            `Easily Integrated or Deployed`,
+            `Binary model package for easy loading into apps or APIs`,
+          ],
+        ]}
+        githubLink="https://github.com/alexthegoodman/common-motion-2d-reg/tree/attention/src"
+      />
+
+      <PortfolioItem
+        side="right"
+        imageSrc="/img/ov/poems.png"
+        title="Our Virtue"
+        tagline="A Book of Poems filled with Godly Teachings"
+        description={`A modern collection of 60 devotional poems across 11 categories, bridging traditional Christian teaching with contemporary social concerns.`}
+        points={[
+          [
+            `Contemporary Christian Poetry`,
+            `A fresh take on devotional literature`,
+          ],
+          [
+            `Localized Content`,
+            `Available in 10 languages to reach a global audience`,
+          ],
+          [
+            `Thematic Organization`,
+            `11 categories addressing various aspects of faith and life`,
+          ],
+        ]}
+        githubLink="https://github.com/alexthegoodman/our-virtue-next"
+      />
+
       <TestimonialShowcase />
 
-      <Pricing />
+      {/* <Pricing /> */}
 
       <Footer />
     </div>
