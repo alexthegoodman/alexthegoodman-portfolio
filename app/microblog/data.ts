@@ -14,4 +14,12 @@ export const microblogs = [
     content: `Society loves the underdog, which is why I love to design services that help the underdog win. I myself am constantly
     working against the headwinds, always persevering through the next complex task. I am your classic underdog, so I couldn't possibly abandon my own kind.`,
   },
+  {
+    slug: "early-vibe-coding",
+    title: "Early Vibe Coding",
+    content: `Truth is, vibe coding is not all it's cracked up to be. 
+    At least, not for complex tasks like 3D or video rendering or custom machine learning architectures. 
+    Sure, it is fantastic for getting a prototype built, but it fails to reach the heights I set for it, regardless of how well I prompt or what else I do.
+    Perhaps this will be solved in the next few years, but it has already been a few years since ChatGPT launched, so my optimism has taken a hit.`,
+  },
 ];

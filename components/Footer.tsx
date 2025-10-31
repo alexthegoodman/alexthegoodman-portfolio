@@ -48,9 +48,9 @@ const Footer: React.FC<any> = () => {
             <a href="https://www.facebook.com/alexthegoodman" target="_blank">
               <FontAwesomeIcon icon={faFacebook} />
             </a>
-            <a href="https://twitter.com/alexthegoodman" target="_blank">
+            {/* <a href="https://twitter.com/alexthegoodman" target="_blank">
               <FontAwesomeIcon icon={faTwitter} />
-            </a>
+            </a> */}
             <a
               href="https://www.linkedin.com/in/alexthegoodman/"
               target="_blank"

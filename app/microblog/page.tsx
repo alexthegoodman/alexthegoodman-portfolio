@@ -10,6 +10,7 @@ export default function Microblog() {
         <h1>Welcome to my Microblog!</h1>
         <div className={styles.blogGrid}>
           {microblogs
+            .reverse()
             // .slice(0, 10) // later?
             .map((blog) => {
               return (
