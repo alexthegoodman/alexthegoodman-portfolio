@@ -17,7 +17,7 @@ export default function Home() {
       <section className="welcome">
         <div>
           <p>
-            I'm Alex - a Grand Rapids-based freelance developer focused on
+            I&apos;m Alex - a Grand Rapids-based freelance developer focused on
             real-time 3D, machine learning, and creative coding. My work bridges
             design and engineering to produce cinematic, interactive visuals and
             powerful generative, predictive, and analytical ML models.
