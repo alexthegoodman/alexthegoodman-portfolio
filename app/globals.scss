@@ -5,11 +5,14 @@ img {
   max-width: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
-  // box-sizing: border-box;
 }
 
 ::selection {
@@ -25,4 +28,11 @@ body {
   font-size: 28px;
   font-style: italic;
   line-height: 44px;
+
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 18px;
+    line-height: 34px;
+  }
 }

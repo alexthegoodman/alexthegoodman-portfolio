@@ -14,11 +14,11 @@
 
   // Adjust height for smaller screens
   @include tabletDown {
-    height: 55vh;
+    height: 65vh;
   }
 
   @include miniDown {
-    height: 40vh;
+    height: 60vh;
   }
 
   .heroInner {
@@ -41,6 +41,7 @@
     @include miniDown {
       width: 90%;
       height: 170px;
+      padding: 0 5vw;
     }
 
     h1,
@@ -49,6 +50,15 @@
       top: -250px;
       padding-left: 26vw;
       padding-right: 7vw;
+
+      @include tabletDown {
+        top: -75px;
+        padding: 0;
+
+        background: rgb(43, 43, 43);
+        width: auto;
+        box-decoration-break: clone;
+      }
     }
 
     h1 {
@@ -75,7 +85,7 @@
         font-size: 40px;
         padding-left: 0; // Remove padding to let text align on tablet/mobile
         text-align: center; // Center text when padding is removed
-        width: 100%; // Ensure it takes full width for centering
+        //width: 100%; // Ensure it takes full width for centering
       }
 
       @include miniDown {
@@ -98,19 +108,19 @@
 
       // Adjust padding and font size for smaller screens
       @include middleDown {
-        font-size: 38px;
+        font-size: 22px;
         padding-left: 5vw; // Reduce padding
       }
 
       @include tabletDown {
-        font-size: 30px;
+        font-size: 20px;
         padding-left: 0; // Remove padding to let text align on tablet/mobile
         text-align: center; // Center text when padding is removed
-        width: 100%; // Ensure it takes full width for centering
+        // width: 100%; // Ensure it takes full width for centering
       }
 
       @include miniDown {
-        font-size: 22px; // Mobile font size
+        font-size: 16px; // Mobile font size
         line-height: 1.2;
       }
     }
