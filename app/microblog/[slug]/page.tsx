@@ -18,6 +18,7 @@ export default async function MicroblogItem({
   return (
     <section className={styles.itemContent}>
       <h1>{matchingItem.title}</h1>
+      <p>Published on: {matchingItem.date}</p>
       <p>{matchingItem.content}</p>
     </section>
   );
