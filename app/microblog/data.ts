@@ -8,4 +8,10 @@ export const microblogs = [
     I am not sure how many of us in Grand Rapids start our blogs only to abandon them, but I hope my micro-strategy
     will mitigate any burnout!`,
   },
+  {
+    slug: "underdogs",
+    title: "The Underdog",
+    content: `Society loves the underdog, which is why I love to design services that help the underdog win. I myself am constantly
+    working against the headwinds, always persevering through the next complex task. I am your classic underdog, so I couldn't possibly abandon my own kind.`,
+  },
 ];
