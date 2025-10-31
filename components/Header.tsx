@@ -1,17 +1,18 @@
 import * as React from "react";
 import styles from "../sass/header.module.scss";
+import Link from "next/link";
 
-const Header: React.FC<any> = () => {
+const Header: React.FC<any> = ({ blackLinks = false }) => {
   return (
     <header className={styles.header}>
       <div className={styles.contain}>
-        <div className={styles.logo}>
+        <Link href="/" className={styles.logo}>
           <img src="/img/logo_w.svg" alt="Alex Goodman" title="Alex Goodman" />
           {/* <h2>
             <span>Alex The</span>
             <span>Goodman</span>
           </h2> */}
-        </div>
+        </Link>
         <div className={styles.navigation}>
           <nav>
             <ul>
@@ -24,9 +25,19 @@ const Header: React.FC<any> = () => {
                 </a>
               </li> */}
               <li>
+                <Link
+                  className={styles.highlightLink}
+                  href="/microblog"
+                  style={{ color: blackLinks ? "black" : "white" }}
+                >
+                  My Microblog
+                </Link>
+              </li>
+              <li>
                 <a
                   className={styles.highlightLink}
                   href="mailto:alexthegoodman@gmail.com"
+                  style={{ color: blackLinks ? "black" : "white" }}
                 >
                   Start a Project
                 </a>
