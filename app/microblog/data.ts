@@ -51,4 +51,16 @@ export const microblogs: MicroBlogPost[] = [
     I will follow best practices, but also ensure that my content remains genuine, original, and brief. This means there will be discussions ranging from WebGL / WebGPU
     to PyTorch, and from technology trends to details that make a UX shine.`,
   },
+  {
+    slug: "neo-bot-mvp",
+    title: "Is the Neo Bot an MVP?",
+    date: "10/31/2025",
+    content: `I have seen this exciting new Neo humanoid robot from 1x.tech. It is a beautiful looking bot, that's for sure. It feels unimposing and welcome
+    into personal spaces. It's size and form factor make it seem appropriate for home use. There is a common dream among many that all kinds of chores
+    from cooking to cleaning could be handled by a humanoid. For others, there is skepticism that chores are worth such a price. But that's not what I'd like to mention.
+    Rather, it is the sad revelation that came out shortly after Neo's pre-orders were launched... This bot is currently remote operated. There is no AI component.
+    Many of us founders might be quick to either judge, because we believe in quality, or to question if this is a valid MVP. Is it? Here's the problem. People
+    are less comfortable inviting a silent stranger into their home than a secure robot. It's basically that simple. AI may have its drawbacks, but it has a lot of
+    potential to shine in the robot world. This is not a valid MVP.`,
+  },
 ];
