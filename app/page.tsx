@@ -14,6 +14,25 @@ export default function Home() {
 
       <HomeHero />
 
+      <section className="welcome">
+        <div>
+          <p>
+            I'm Alex - a Grand Rapids-based freelance developer focused on
+            real-time 3D, machine learning, and creative coding. My work bridges
+            design and engineering to produce cinematic, interactive visuals and
+            powerful generative, predictive, and analytical ML models.
+          </p>
+          <p>
+            As a freelance interactive 3D / ML developer in Grand Rapids, I help
+            startups, studios, and brands transform ideas into visually rich
+            digital experiences and solutions. I specialize in WebGL, WebGPU,
+            and Burn + PyTorch to bring your dream ideas to life. I also love
+            other graphical frameworks such as Vulkan and often code in Rust,
+            C++, and TypeScript.
+          </p>
+        </div>
+      </section>
+
       <PortfolioItem
         side="left"
         imageSrc="/img/stunts/screen1.png"

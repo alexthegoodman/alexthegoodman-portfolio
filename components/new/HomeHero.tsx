@@ -346,6 +346,11 @@ export default function HomeHero() {
           Managing <span>Complexity</span> <br />
           from Pixel to Pixel
         </h1>
+        <h2>
+          Grand Rapids Machine Learning and Interactive 3D Developer crafting
+          high-performance visual experiences and tailored machine learning
+          solutions.
+        </h2>
       </div>
       <canvas className={styles.heroCanvas} id="gl-canvas"></canvas>
       <script id="main-vs" type="x-shader/vs">

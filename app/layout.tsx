@@ -6,9 +6,9 @@ import InnerLayout from "@/components/InnerLayout";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Alex Goodman",
+  title: "Alex Woodman | Freelance 3D Developer",
   description:
-    "I help clients with full-stack development and digital marketing services!",
+    "Freelance Machine Learning and interactive 3D developer based in Grand Rapids, creating cinematic, real-time visuals and powerful ML solutions.",
 };
 
 export default function RootLayout({
