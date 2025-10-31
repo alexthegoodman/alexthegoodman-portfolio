@@ -22,4 +22,12 @@ export const microblogs = [
     Sure, it is fantastic for getting a prototype built, but it fails to reach the heights I set for it, regardless of how well I prompt or what else I do.
     Perhaps this will be solved in the next few years, but it has already been a few years since ChatGPT launched, so my optimism has taken a hit.`,
   },
+  {
+    slug: "quantum-ml-algorithms",
+    title: "Quantum ML Algorithms",
+    content: `If you've been watching the quantum developments closely, you might know that we have built machines with hundreds of qubits, some with very low error rates,
+    and even some that operate at room-temperature. As the hardware continues to improve, more and more people are using quantum "simulation" to verify algorithms ahead of time.
+    Such simulators allow for the testing of thousands or even millions of qubits on traditional hardware. However, the algorithms are struggling across the board, except one crucial
+    area - machine learning / artificial intelligence. Building on this, I put forward the idea that we should achieve traditional problem solving via quantum machine learning models.`,
+  },
 ];
