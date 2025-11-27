@@ -91,7 +91,8 @@ export default function HomeHero() {
     //////////////////////////
 
     // var NUM_PARTICLES = 200000;
-    var NUM_PARTICLES = 100000;
+    // var NUM_PARTICLES = 100000; // slow on integrated gpu
+    var NUM_PARTICLES = 10000;
     var positionData = new Float32Array(NUM_PARTICLES * 3);
     var velocityData = new Float32Array(NUM_PARTICLES * 3);
     var colorData = new Float32Array(NUM_PARTICLES * 3);
