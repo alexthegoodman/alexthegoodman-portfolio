@@ -63,4 +63,27 @@ export const microblogs: MicroBlogPost[] = [
     are less comfortable inviting a silent stranger into their home than a secure robot. It's basically that simple. AI may have its drawbacks, but it has a lot of
     potential to shine in the robot world. This is not a valid MVP.`,
   },
+  {
+    slug: "vulkan-worth-it",
+    title: "Is Vulkan Worth It?",
+    date: "11/27/2025",
+    content: `Of course, it is. All graphics APIs are largely the same. There are buffers, pipelines, and queues, among other things. The worst you'll hear about Vulkan is
+    that it is verbose, and this is technically accurate. But you've got to ask, is 20% more code worth 20% more speed in the final product? Given how much of that code is just boilerplate,
+    I would say the answer is an easy yes. I am not saying wgpu or OpenGL are no good, but ultimately you make a decision regarding performance when deciding between these APIs. Also, don't worry
+    about feature support. Just be mindful of which special features you really need in your Vulkan implementation.`
+  },
+  {
+    slug: "headhunters",
+    title: "Headhunters",
+    date: "11/27/2025",
+    content: `I do wonder what it is like to be in need of a frontend, graphics, or video engineer and not be satisfied with what you get in your searches or job postings. Or perhaps
+    you are looking for one of these engineers but aren't ready to hire right away. Either way, I think the solution for us specialized developers is to market ourselves and make ourselves
+    more discoverable. This will open all kinds of doors for both parties. I was never great with Kubernetes or Kafka (back-end tools), but love working with vertices, shaders, and matrices.`
+  }
+  // {
+  //   slug: "",
+  //   title: "",
+  //   date: "",
+  //   content: ``
+  // }
 ];
