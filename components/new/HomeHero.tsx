@@ -348,8 +348,8 @@ export default function HomeHero() {
           from Pixel to Pixel
         </h1>
         <h2>
-          Grand Rapids Machine Learning and Interactive 3D Developer crafting
-          high-performance visual experiences and tailored machine learning
+          Grand Rapids Machine Learning, High-Performance Video, and Interactive 3D Developer crafting
+          powerful visual experiences and tailored machine learning
           solutions.
         </h2>
       </div>
