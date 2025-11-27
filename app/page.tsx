@@ -17,13 +17,13 @@ export default function Home() {
       <section className="welcome">
         <div>
           <p>
-            I&apos;m Alex - a Grand Rapids-based freelance developer focused on
-            real-time 3D, machine learning, and creative coding. My work bridges
+            I&apos;m Alex - a Grand Rapids-based graphics engineer focused on
+            real-time 3D, encode/decode/altering video, machine learning, and creative coding. My work bridges
             design and engineering to produce cinematic, interactive visuals and
-            powerful generative, predictive, and analytical ML models.
+            powerful generative, predictive, and analytical ML models. <strong>Currently, I am looking for my next long-term position. Feel free to <a href="mailto:alexthegoodman@gmail.com" target="_blank">reach out</a></strong>
           </p>
           <p>
-            As a freelance interactive 3D / ML developer in Grand Rapids, I help
+            As an interactive 3D / Video / ML developer in Grand Rapids, I help
             startups, studios, and brands transform ideas into visually rich
             digital experiences and solutions. I specialize in WebGL, WebGPU,
             and Burn + PyTorch to bring your dream ideas to life. I also love
