@@ -1,5 +1,6 @@
 "use client";
 
+import AboutMe from "@/components/AboutMe";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HomeHero from "@/components/new/HomeHero";
@@ -235,6 +236,8 @@ export default function Home() {
           </p>
         </div>
       </section>
+
+      <AboutMe />
 
       <Footer />
     </div>

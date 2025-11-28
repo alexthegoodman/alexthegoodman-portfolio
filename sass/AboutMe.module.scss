@@ -1,0 +1,29 @@
+@import "vars";
+
+.aboutMe {
+    width: 900px;
+    margin: 0 auto;
+
+    .inner {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 20px;
+        
+        .profileOuter {
+            width: 250px;
+        }
+        .profile {
+            display: block;
+            width: 250px;
+            border-radius: 50%;
+        }
+        .content {
+            width: calc(100% - 300px);
+        }
+
+        p {
+            width: 100%;
+        }
+    }
+}
