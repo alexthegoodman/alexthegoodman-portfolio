@@ -184,6 +184,58 @@ export default function Home() {
 
       <TestimonialShowcase />
 
+      <section className="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div className="faq-item">
+          <h3>What types of projects do you specialize in?</h3>
+          <p>
+            I specialize in a wide range of projects, including real-time 3D graphics, creative coding, machine learning model development, and full-stack web applications. I have experience with everything from motion graphics editors and voxel game engines to LLM-powered applications and PCB design.
+          </p>
+        </div>
+        <div className="faq-item">
+          <h3>What is &quot;graphics engineering&quot; and how can it help my business?</h3>
+          <p>
+            Graphics engineering is the art of using code to create compelling, interactive visuals. For your business, this could mean creating a cinematic product demo, a real-time 3D configurator for your products, or eye-catching data visualizations. I use modern technologies like WebGL, WebGPU, and Vulkan to bring these experiences to life.
+          </p>
+        </div>
+        <div className="faq-item">
+          <h3>Can you build custom machine learning models?</h3>
+          <p>
+            Yes. I have experience building and training custom ML models, including generative models for animations and images. Whether you need a predictive or analytical model, I can leverage frameworks like PyTorch and Burn to create a solution tailored to your data and business needs.
+          </p>
+        </div>
+        <div className="faq-item">
+          <h3>Do you work with startups as well as established companies?</h3>
+          <p>
+            Absolutely. I enjoy working with clients of all sizes. I can help startups build their first product and established companies innovate with new technologies. My process is flexible and can adapt to the needs of your project, whether it&apos;s rapid prototyping or building a scalable, long-term solution.
+          </p>
+        </div>
+        <div className="faq-item">
+          <h3>What is your development process like?</h3>
+          <p>
+            My process is collaborative and iterative. We start by defining the project goals and requirements. Then, I move into design and development, with regular check-ins to ensure the project is on track. I believe in writing clean, maintainable code and using tools like Git for version control and automated testing to ensure quality.
+          </p>
+        </div>
+        <div className="faq-item">
+          <h3>Are you available for freelance or contract work?</h3>
+          <p>
+            Yes, I am currently available for new freelance and contract opportunities. If you have a project you&apos;d like to discuss, please feel free to <a href="mailto:alexthegoodman@gmail.com">reach out</a>.
+          </p>
+        </div>
+        <div className="faq-item">
+          <h3>How does the pricing calculator work?</h3>
+          <p>
+            The pricing calculator is a tool to help you get a rough estimate for your project. You select a project category, a service, and any relevant add-ons. The calculator then provides a price range based on my past projects. Please note that this is an estimate, and the final price may vary depending on the specific details of your project.
+          </p>
+        </div>
+        <div className="faq-item">
+          <h3>I have a project that involves both hardware (PCB) and software. Can you handle that?</h3>
+          <p>
+            Yes, this is an area I&apos;m particularly excited about. My experience in both software development and PCB design allows me to take on projects that bridge the physical and digital worlds. Whether it&apos;s a custom controller for an interactive installation or a smart device, I can design the hardware and write the software to make it work.
+          </p>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
