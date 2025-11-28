@@ -171,7 +171,7 @@ export default function Home() {
         <div>
           <p>
             The wide variety of projects I have built include: Rust GUI kit, C++ and Rust game engine, WGPU and WASM motion graphics editor, 
-            animation keyframe generation model, 64x64 image generation model, sparse web crawler, various LLM-powered application experiences, and a "multi-page" rich text editor.
+            animation keyframe generation model, 64x64 image generation model, sparse web crawler, various LLM-powered application experiences, and a &quot;multi-page&quot; rich text editor.
           </p>
           <p>
             I also have a foundation of experience in your classic frontend technologies: HTML, CSS, JavaScript (TypeScript) and related frontend frameworks and libraries. I understand how to implement data structures
