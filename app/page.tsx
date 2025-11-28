@@ -70,6 +70,33 @@ export default function Home() {
 
       <PortfolioItem
         side="right"
+        imageSrc="/img/ultravox/screen1.jpg"
+        title="Ultravox"
+        tagline="Open-World Voxel Engine"
+        description={`Ultravox is a native C++ / Vulkan engine for open-world voxel-based games. Easy manipulation of point lights and terrain as well early gameplay mechanics.`}
+        points={[
+          [
+            `Open-world optimizations`,
+            `Leveraging a chunk manager for vertex data and an octree for physics instances`,
+          ],
+          [
+            `Specialized 3D engine`,
+            `Built on Vulkan with only voxels in mind to afford more optimization potential`,
+          ],
+          [
+            `Terrain generation`,
+            `Leverage noise algorithms to produce interesting landscapes with voxels`,
+          ],
+          [
+            `Work-in-Progress`,
+            `An actively developed engine with an early feature-set`,
+          ],
+        ]}
+        githubLink="https://github.com/alexthegoodman/ultravox"
+      />
+
+      <PortfolioItem
+        side="left"
         imageSrc="/img/commonplace/mainSmall.jpg"
         title="CommonPlace"
         tagline="Connect and Share Feedback Rapidly"
@@ -95,7 +122,7 @@ export default function Home() {
       />
 
       <PortfolioItem
-        side="left"
+        side="right"
         imageSrc="/img/ml/loss.png"
         title="CommonMotion 2D"
         tagline="Generate 2D Animation Motion Paths"
@@ -118,7 +145,7 @@ export default function Home() {
       />
 
       <PortfolioItem
-        side="right"
+        side="left"
         imageSrc="/img/ov/poems.png"
         title="Our Virtue"
         tagline="A Book of Poems filled with Godly Teachings"
@@ -139,6 +166,22 @@ export default function Home() {
         ]}
         githubLink="https://github.com/alexthegoodman/our-virtue-next"
       />
+
+      <section className="welcome">
+        <div>
+          <p>
+            The wide variety of projects I have built include: Rust GUI kit, C++ and Rust game engine, WGPU and WASM motion graphics editor, 
+            animation keyframe generation model, 64x64 image generation model, sparse web crawler, various LLM-powered application experiences, and a "multi-page" rich text editor.
+          </p>
+          <p>
+            I also have a foundation of experience in your classic frontend technologies: HTML, CSS, JavaScript (TypeScript) and related frontend frameworks and libraries. I understand how to implement data structures
+            and algorithms which take web experiences to the next level.
+          </p>
+          <p>
+            I love taking on complex challenges that involve a deep understanding for the technology at hand. I excel at building things from scratch rather than repurposing existing solutions.
+          </p>
+        </div>
+      </section>
 
       <TestimonialShowcase />
 

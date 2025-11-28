@@ -1,0 +1,26 @@
+@import "../../sass/vars";
+
+.blog {
+  width: $desktop;
+  margin: 200px auto 0 auto;
+
+  @include middleDown {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .blogGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+    @include middleDown {
+      grid-template-columns: 1fr;
+    }
+
+    > div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
