@@ -20,20 +20,51 @@ body {
   color: white;
 }
 
+// .welcome {
+//   width: 40vw;
+//   padding-left: 5vw;
+//   margin: 50px auto;
+//   color: gray;
+//   font-size: 28px;
+//   font-style: italic;
+//   line-height: 44px;
+
+//   @media only screen and (max-width: 900px) {
+//     width: 100%;
+//     padding: 0 20px;
+//     font-size: 18px;
+//     line-height: 34px;
+//   }
+
+//   a {
+//     color: $gold2;
+//   }
+// }
+
 .welcome {
-  width: 40vw;
-  padding-left: 5vw;
+  width: 1200px;
+  // padding-left: 5vw;
   margin: 50px auto;
   color: gray;
-  font-size: 28px;
+  font-size: 22px;
   font-style: italic;
-  line-height: 44px;
+  line-height: 38px;
+
+  > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 
   @media only screen and (max-width: 900px) {
     width: 100%;
     padding: 0 20px;
     font-size: 18px;
     line-height: 34px;
+    
+    > div {
+      grid-template-columns: 1fr;
+    }
   }
 
   a {
