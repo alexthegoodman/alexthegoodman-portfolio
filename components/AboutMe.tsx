@@ -21,7 +21,7 @@ const AboutMe = () => {
                     <p>Fast-forward 10+ years, and here I am working on continuously more advanced project types and significant scope. C++ was my very first programming language and remains 
                         my overall favorite, closely followed by TypeScript and Rust. I have always enjoyed reading, everything from UX to DevOps, from rendering to AI.
                     </p>
-                    <p>I'm also an avid gamer myself. Some great picks include Fallout, Far Cry, and my childhood favorite, Fable. I strive to help people who want to create all kinds of interactive
+                    <p>I&apos;m also an avid gamer myself. Some great picks include Fallout, Far Cry, and my childhood favorite, Fable. I strive to help people who want to create all kinds of interactive
                         experiences, including games.
                     </p>
                     </div>
