@@ -7,7 +7,7 @@ const Header: React.FC<any> = ({ blackLinks = false }) => {
     <header className={styles.header}>
       <div className={styles.contain}>
         <Link href="/" className={styles.logo}>
-          <img src="/img/logo_w.svg" alt="Alex Goodman" title="Alex Goodman" />
+          <img src={blackLinks ? "/img/logo.svg" : "/img/logo_w.svg"} alt="Alex Goodman" title="Alex Goodman" />
           {/* <h2>
             <span>Alex The</span>
             <span>Goodman</span>
@@ -31,6 +31,15 @@ const Header: React.FC<any> = ({ blackLinks = false }) => {
                   style={{ color: blackLinks ? "black" : "white" }}
                 >
                   My Microblog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className={styles.highlightLink}
+                  href="/pricing"
+                  style={{ color: blackLinks ? "black" : "white" }}
+                >
+                  Pricing
                 </Link>
               </li>
               {/* <li>

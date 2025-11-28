@@ -4,7 +4,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import HomeHero from "@/components/new/HomeHero";
 import PortfolioItem from "@/components/new/PortfolioItem";
-import Pricing from "@/components/new/Pricing";
 import TestimonialShowcase from "@/components/new/Testimonials";
 
 export default function Home() {
@@ -184,8 +183,6 @@ export default function Home() {
       </section>
 
       <TestimonialShowcase />
-
-      {/* <Pricing /> */}
 
       <Footer />
     </div>
