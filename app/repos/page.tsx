@@ -100,7 +100,7 @@ export default function Microblog() {
         <h1>Welcome to my curated project directory from over the years!</h1>
         <div className={styles.blogGrid}>
          {repos.map((item) => {
-          return <Link href={`/repos/${item.slug}`}>{item.title}</Link>
+          return <Link key={item.slug} href={`/repos/${item.slug}`}>{item.title}</Link>
          })}
         </div>
       </section>
