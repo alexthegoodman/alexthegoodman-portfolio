@@ -30,7 +30,16 @@ const Header: React.FC<any> = ({ blackLinks = false }) => {
                   href="/microblog"
                   style={{ color: blackLinks ? "black" : "white" }}
                 >
-                  My Microblog
+                  Microblog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className={styles.highlightLink}
+                  href="/microblog"
+                  style={{ color: blackLinks ? "black" : "white" }}
+                >
+                  Open Source Work
                 </Link>
               </li>
               <li>
