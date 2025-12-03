@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>CommonSimulator</h1> <a href="https://github.com/alexthegoodman/CommonSimulator" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>With this Kotlin-based simulator, you can fetch stocks, simulate buying them, and watch their performance over time, with local SQLite caching.</p>
     </section>
   );
 }

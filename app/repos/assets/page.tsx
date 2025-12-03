@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>Assets</h1> <a href="https://github.com/alexthegoodman/AssetsIOS" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>Assets nebaled photogrphers, brand designers, and UX designers to collaborate with their clients and rank proofs, even on the Apple TV.</p>
     </section>
   );
 }

@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>CommonUI</h1> <a href="https://github.com/alexthegoodman/commonui" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>CommonUI is a multi-threaded, custom GUI kit built in Rust!</p>
     </section>
   );
 }

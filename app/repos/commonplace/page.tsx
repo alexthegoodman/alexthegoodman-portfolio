@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>CommonPlace</h1> <a href="https://github.com/alexthegoodman/commonplace" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>CommonPlace was a thoughtful social network featuring a mobile-first UX!</p>
     </section>
   );
 }

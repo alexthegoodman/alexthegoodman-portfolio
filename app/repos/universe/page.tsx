@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>Universe</h1> <a href="https://github.com/alexthegoodman/universe" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>Universe was a fun side project where I created a strategy game filled with autonomous LLM-powered animals!</p>
     </section>
   );
 }

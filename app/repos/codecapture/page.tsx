@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>CodeCapture</h1> <a href="https://github.com/alexthegoodman/codecapture" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>CodeCapture makes it easy to leverage AI to transform your code into walkthrough videos!</p>
     </section>
   );
 }

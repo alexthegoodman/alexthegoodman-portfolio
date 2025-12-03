@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>ShaderUI</h1> <a href="https://github.com/alexthegoodman/shaderui" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>Create a UI that is melting, or curved, or shiny, all thanks to ShaderUI!</p>
     </section>
   );
 }

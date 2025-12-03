@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>QA Kit</h1> <a href="https://github.com/alexthegoodman/qa-kit" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>With QA Kit tied to your coding agent, you can enforce code standards on your agent (beyond typical syntax standards)!</p>
     </section>
   );
 }

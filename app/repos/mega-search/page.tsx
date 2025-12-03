@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>Mega Search</h1> <a href="https://github.com/alexthegoodman/mega-search" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>Ever wanted to build a personal search engine? Perhaps you want to reach out to target prospects? Mega Search is your solution.</p>
     </section>
   );
 }

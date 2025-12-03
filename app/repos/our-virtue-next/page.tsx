@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>Our Virtue</h1> <a href="https://github.com/alexthegoodman/our-virtue-next" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>Our Virtue is a book of poems detailing Godly teachings of peace, love, and forgiveness.</p>
     </section>
   );
 }

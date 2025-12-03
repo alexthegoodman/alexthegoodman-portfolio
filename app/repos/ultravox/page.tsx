@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>Ultravox</h1> <a href="https://github.com/alexthegoodman/ultravox" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>Ultravox is a high-performance C++ game engine leveraging Vulkan!</p>
     </section>
   );
 }

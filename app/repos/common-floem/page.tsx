@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>Common Floem</h1> <a href="https://github.com/alexthegoodman/common-floem" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>This fork of the popular Rust Floem library enables deep integration of wgpu with the stellar UX of Floem!</p>
     </section>
   );
 }

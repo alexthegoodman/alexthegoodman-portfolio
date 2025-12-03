@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>Mini-Pic</h1> <a href="https://github.com/alexthegoodman/mini-pic" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>Mini-Pic is a diffusion image generation model which generates 64x64 images and is intended to run in 2GB of RAM or less.</p>
     </section>
   );
 }

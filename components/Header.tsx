@@ -36,7 +36,7 @@ const Header: React.FC<any> = ({ blackLinks = false }) => {
               <li>
                 <Link
                   className={styles.highlightLink}
-                  href="/microblog"
+                  href="/repos"
                   style={{ color: blackLinks ? "black" : "white" }}
                 >
                   Open Source Work

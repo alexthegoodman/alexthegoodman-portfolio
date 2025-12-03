@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>CommonTV</h1> <a href="https://github.com/alexthegoodman/commontv" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>With this Ubuntu GNOME Extension, you can automate your window management to make it ideal for TV viewing!</p>
     </section>
   );
 }

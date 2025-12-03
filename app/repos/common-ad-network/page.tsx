@@ -12,7 +12,7 @@ export default async function RepoItem({
   return (
     <section className={styles.itemContent}>
       <h1>Common Ad Network</h1> <a href="https://github.com/alexthegoodman/common-ad-network" target="_blank">View on GitHub</a>
-      <p></p>
+      <p>With the ad network, indie makers can promote each others products on each others sites!</p>
     </section>
   );
 }
