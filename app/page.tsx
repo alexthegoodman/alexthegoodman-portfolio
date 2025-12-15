@@ -70,6 +70,37 @@ export default function Home() {
 
       <PortfolioItem
         side="right"
+        imageSrc="/img/entropy/screen1.png"
+        title="Entropy"
+        tagline="Enjoy Making Games"
+        description={`Entropy is a powerful yet lightweight game engine that is intended to provide higher-quality visuals while
+          still targeting a mobile or web performance goal. It features several advanced capabilities as defaults that set it apart from even
+          some popular engines.`}
+        points={[
+          [
+            `Deferred Rendering / Lighting`,
+            `This approach not only allows for many lights in a scene,
+            but enables complex lighting shaders that can apply more advanced effects.`,
+          ],
+          [
+            `Procedural, Interactive Grass`,
+            `Leveraging instancing to create a hair-particle system which tracks player position
+            and creates wind and interaction, while remaining performant even with over 50k blades`,
+          ],
+          [
+            `Open-World Landscapes`,
+            `The quadtree terrain system enables massive open world landscapes of practically any size`,
+          ],
+          [
+            `Physically-Based-Rendering Techniques`,
+            `Leveraging PBR materials and the deferred rendering pipeline, the various specular constraints from metallic to roughness are accounted for`,
+          ],
+        ]}
+        githubLink="https://github.com/alexthegoodman/entropy-engine"
+      />
+
+      <PortfolioItem
+        side="left"
         imageSrc="/img/ultravox/screen1.jpg"
         title="Ultravox"
         tagline="Open-World Voxel Engine"
@@ -96,7 +127,7 @@ export default function Home() {
       />
 
       <PortfolioItem
-        side="left"
+        side="right"
         imageSrc="/img/commonplace/mainSmall.jpg"
         title="CommonPlace"
         tagline="Connect and Share Feedback Rapidly"
@@ -122,7 +153,7 @@ export default function Home() {
       />
 
       <PortfolioItem
-        side="right"
+        side="left"
         imageSrc="/img/ml/loss.png"
         title="CommonMotion 2D"
         tagline="Generate 2D Animation Motion Paths"
@@ -145,7 +176,7 @@ export default function Home() {
       />
 
       <PortfolioItem
-        side="left"
+        side="right"
         imageSrc="/img/ov/poems.png"
         title="Our Virtue"
         tagline="A Book of Poems filled with Godly Teachings"
