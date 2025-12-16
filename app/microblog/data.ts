@@ -79,6 +79,24 @@ export const microblogs: MicroBlogPost[] = [
     content: `I do wonder what it is like to be in need of a frontend, graphics, or video engineer and not be satisfied with what you get in your searches or job postings. Or perhaps
     you are looking for one of these engineers but aren't ready to hire right away. Either way, I think the solution for us specialized developers is to market ourselves and make ourselves
     more discoverable. This will open all kinds of doors for both parties. I was never great with Kubernetes or Kafka (back-end tools), but love working with vertices, shaders, and matrices.`
+  },
+  {
+    slug: "entropy-update-1",
+    title: "Entropy Update #1",
+    date: "12/16/2025",
+    content: `I recently unified my "Midpoint" and "Stunts" engines, which were my Rust-based engines for games and video. The result is called Entropy Engine. I also added several important
+    upgrades to improve visual fidelity, including deferred rendering. Now, EE powers an MCP-inspired experience called Entropy Chat. With Entropy Chat, the "make games easy" search phrase
+    is finally satisfied to the fullest. Users can create a game just by chatting, and with the abstractions provided by Entopy Engine, the experience is far less clunky and more capable
+    for level design as compared to MCP with Unity or Unreal Engine.`
+  },
+  {
+    slug: "make-games-easy",
+    title: "Make Games Easy",
+    date: "12/16/2025",
+    content: `If you're anything like me, you've long dreamed of creating a game with ease. Crafting your story, your art, and your mechanics, without having to learn complex math and programming.
+    Entropy Chat is here to solve this problem. Just by chatting, you can control your level design, game behaviors, and 3D art. Sure, you will need to create, generate, or find your art unless
+    you would like to create a prototype with the art Entropy Chat will provide by default. But that's what gives your game its unique charm in the end! Ultimately, the gain is from being able
+    to design and orchestrate your scenes just by chatting. Then, if you'd like, you can extend the engine and add any complex feature you want!`
   }
   // {
   //   slug: "",
