@@ -10,6 +10,9 @@ export const metadata: Metadata = {
   title: "Alex Woodman | WebGL Engineer | WebGPU Developer",
   description:
     "Video, machine learning, and interactive 3D developer based in Grand Rapids, Michigan, creating cinematic, real-time visuals and powerful ML solutions.",
+  verification: {
+    google: "lwcAYMnwQQIrEhb1NBE-lPqbXoq9mqPPlL6uNDp7yUo"
+  }
 };
 
 export default function RootLayout({
@@ -19,9 +22,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <meta name="google-site-verification" content="lwcAYMnwQQIrEhb1NBE-lPqbXoq9mqPPlL6uNDp7yUo" />
-      </Head>
       <body className={inter.className}>
         <InnerLayout>{children}</InnerLayout>
         {/* <link
