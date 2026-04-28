@@ -3,7 +3,7 @@
 import { useEffect } from "react";
 import styles from "../../sass/homeHero.module.scss";
 
-export default function HomeHero() {
+export default function HomeHero({ particleColor = [250 / 255, 175 / 255, 58 / 255] , heroInner = <></> }) {
   useEffect(() => {
     var canvas = document.getElementById("gl-canvas") as HTMLCanvasElement;
     canvas.width = window.innerWidth;
@@ -96,8 +96,6 @@ export default function HomeHero() {
     var positionData = new Float32Array(NUM_PARTICLES * 3);
     var velocityData = new Float32Array(NUM_PARTICLES * 3);
     var colorData = new Float32Array(NUM_PARTICLES * 3);
-
-    let particleColor = [250 / 255, 175 / 255, 58 / 255];
 
     for (var i = 0; i < NUM_PARTICLES; ++i) {
       var vec3i = i * 3;
@@ -343,15 +341,7 @@ export default function HomeHero() {
   return (
     <section className={styles.homeHero}>
       <div className={styles.heroInner}>
-        <h1>
-          Managing <span>Complexity</span> <br />
-          from Pixel to Pixel
-        </h1>
-        <h2>
-          Grand Rapids Machine Learning, High-Performance Video, and Interactive 3D Developer crafting
-          powerful visual experiences and tailored machine learning
-          solutions.
-        </h2>
+        {heroInner}
       </div>
       <canvas className={styles.heroCanvas} id="gl-canvas"></canvas>
       <script id="main-vs" type="x-shader/vs">

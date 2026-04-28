@@ -15,7 +15,7 @@
       flex-direction: row-reverse;
 
       .itemImage {
-        transform: perspective(1000px) rotateY(-25deg);
+        transform: perspective(1000px) rotateY(-15deg);
       }
     }
 
@@ -50,7 +50,7 @@
       max-width: 100%;
       height: auto;
       border-radius: 12px;
-      transform: perspective(1000px) rotateY(25deg);
+      transform: perspective(1000px) rotateY(15deg);
       box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
     }
     .itemTitle {

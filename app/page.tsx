@@ -12,7 +12,17 @@ export default function Home() {
     <div style={{ background: "#E5E5E5" }}>
       <Header />
 
-      <HomeHero />
+      <HomeHero 
+        heroInner={<><h1>
+          Managing <span>Complexity</span> <br />
+          from Pixel to Pixel
+        </h1>
+        <h2>
+          Grand Rapids Machine Learning, High-Performance Video, and Interactive 3D Developer crafting
+          powerful visual experiences and tailored machine learning
+          solutions.
+        </h2></>}
+      />
 
       <section className="welcome">
         <div>

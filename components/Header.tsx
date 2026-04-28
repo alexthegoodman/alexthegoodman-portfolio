@@ -2,17 +2,18 @@ import * as React from "react";
 import styles from "../sass/header.module.scss";
 import Link from "next/link";
 
-const Header: React.FC<any> = ({ blackLinks = false }) => {
+const Header: React.FC<any> = ({ blackLinks = false, showLinks = true, logoFilter = "" }) => {
   return (
     <header className={styles.header}>
       <div className={styles.contain}>
         <Link href="/" className={styles.logo}>
-          <img src={blackLinks ? "/img/logo.svg" : "/img/logo_w.svg"} alt="Alex Goodman" title="Alex Goodman" />
+          <img src={blackLinks ? "/img/logo.svg" : "/img/logo_w.svg"} style={{ filter: logoFilter }} alt="Alex Goodman" title="Alex Goodman" />
           {/* <h2>
             <span>Alex The</span>
             <span>Goodman</span>
           </h2> */}
         </Link>
+        {showLinks ? (
         <div className={styles.navigation}>
           <nav>
             <ul>
@@ -73,6 +74,7 @@ const Header: React.FC<any> = ({ blackLinks = false }) => {
             </ul>
           </nav>
         </div>
+        ) : <></>}
       </div>
     </header>
   );

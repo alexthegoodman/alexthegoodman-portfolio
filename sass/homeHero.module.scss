@@ -47,9 +47,10 @@
     h1,
     h2 {
       position: relative;
-      top: -250px;
-      padding-left: 26vw;
-      padding-right: 7vw;
+      top: -310px;
+      width: 49vw;
+      margin-left: 25vw;
+      padding: 25px;
 
       @include tabletDown {
         top: -75px;
@@ -66,7 +67,7 @@
       font-size: 68px;
 
       font-weight: 300;
-      margin: 0;
+      margin-bottom: 0;
       display: block;
 
       span {

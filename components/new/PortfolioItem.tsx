@@ -32,8 +32,11 @@ export default function PortfolioItem({
         </div>
         <div className={styles.right}>
           <h2 className={styles.itemTitle}>{title}</h2>
-          <p className={styles.tagline}>{tagline}</p>
-          <p className={styles.itemDescription}>{description}</p>
+          {tagline && (<p className={styles.tagline}>{tagline}</p>)}
+          
+          {description && (<p className={styles.itemDescription}>{description}</p>)}
+          
+          {points.length > 0 && (
           <ul className={styles.featuresList}>
             {points.map(([pointTitle, pointDesc], index) => (
               <li key={index}>
@@ -41,9 +44,12 @@ export default function PortfolioItem({
               </li>
             ))}
           </ul>
-          <a href={githubLink} target="_blank">
-            View on GitHub
-          </a>
+          )}
+          {githubLink && (
+            <a href={githubLink} target="_blank">
+              View on GitHub
+            </a>
+          )}
         </div>
       </div>
     </section>

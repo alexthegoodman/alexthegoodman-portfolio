@@ -9,7 +9,7 @@ import {
 
 import styles from "../../sass/new/testimonials.module.scss";
 
-const TestimonialShowcase = () => {
+const TestimonialShowcase = ({ note = false }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const testimonials = [
@@ -44,8 +44,8 @@ const TestimonialShowcase = () => {
   ];
 
   const summary = {
-    technical:
-      "Strong development skills with ability to quickly understand codebases and add meaningful improvements",
+    // technical:
+    //   "Strong development skills with ability to quickly understand codebases and add meaningful improvements",
     communication:
       "Clear communication, reliable, and easy to collaborate with throughout projects",
     strategic:
@@ -53,7 +53,7 @@ const TestimonialShowcase = () => {
     professional:
       "Flexible, solid work ethic, and genuine curiosity about business context",
     trust:
-      "Consistently recommended for future work—avoids common freelancer pitfalls",
+      "Consistently recommended for future work",
   };
 
   const nextTestimonial = () => {
@@ -98,6 +98,8 @@ const TestimonialShowcase = () => {
               {currentIndex + 1} / {testimonials.length}
             </span> */}
           </h2>
+
+          {note && <p style={{fontSize: "20px", marginBottom: "25px", fontStyle: "italic"}}>These testimonials were earned as a contract web developer.</p>}
 
           <div className={styles.testimonialCarouselContainer}>
             {testimonials.map((t) => (
