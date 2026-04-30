@@ -356,12 +356,12 @@ const AIFirstLandingPage = () => {
         <div className="about-frame-accent"></div>
       </div>
       <div className="reveal reveal-delay-2">
-        <h2 className="section-title">Hi, I'm <em>Alex</em></h2>
+        <h2 className="section-title">Hi, I&apos;m <em>Alex</em></h2>
         <div className="gold-divider"></div>
         <div className="about-body">
-          <p>I'm a Grand Rapids-based graphics engineer, digital marketer, and ML practitioner. I've spent years building things from scratch — game engines, motion editors, ad campaigns, and ML models — and now I'm bringing that full-stack creative capability to one focused offering.</p>
+          <p>I&apos;m a Grand Rapids-based graphics engineer, digital marketer, and ML practitioner. I&apos;ve spent years building things from scratch — game engines, motion editors, ad campaigns, and ML models — and now I&apos;m bringing that full-stack creative capability to one focused offering.</p>
           <p>AlexTheGoodman exists because most agencies either design well or build well. I do both. My work bridges the gap between engineering and aesthetics, and AI amplifies every part of that process — from generative creative to predictive campaign analytics.</p>
-          <p>I work with startups, studios, and brands that want to move fast without compromising on craft. Every project gets the same obsessive attention to detail, whether it's a single ad or a full brand system.</p>
+          <p>I work with startups, studios, and brands that want to move fast without compromising on craft. Every project gets the same obsessive attention to detail, whether it&apos;s a single ad or a full brand system.</p>
         </div>
         <div className="about-skills">
           <div className="about-skill">WebGPU / WebGL / Vulkan</div>
@@ -508,7 +508,7 @@ const AIFirstLandingPage = () => {
     <div className="faq-grid reveal">
       <div className="faq-item" onClick={(e) => toggleFaq(e.currentTarget)}>
         <div className="faq-question">
-          What makes this "AI-first"?
+          What makes this &quot;AI-first&quot;?
           <span className="faq-toggle">+</span>
         </div>
         <div className="faq-answer">AI is woven into every part of the workflow — not as a shortcut, but as a force multiplier. From generative ad creative and copy variants to predictive analytics and custom ML models, the result is faster output, lower cost, and measurably better performance. You still get hand-crafted design and strategy; AI just removes the ceiling on how much I can do.</div>
@@ -525,14 +525,14 @@ const AIFirstLandingPage = () => {
           How does communication work?
           <span className="faq-toggle">+</span>
         </div>
-        <div className="faq-answer">You work directly with me — no account managers or handoffs. Depending on the plan, communication is async (Slack or email), with regular calls scheduled on retainer plans. I'm responsive and believe fast iteration beats perfect planning, so expect quick turnarounds on feedback and approvals.</div>
+        <div className="faq-answer">You work directly with me — no account managers or handoffs. Depending on the plan, communication is async (Slack or email), with regular calls scheduled on retainer plans. I&apos;m responsive and believe fast iteration beats perfect planning, so expect quick turnarounds on feedback and approvals.</div>
       </div>
       <div className="faq-item" onClick={(e) => toggleFaq(e.currentTarget)}>
         <div className="faq-question">
-          What's your revision policy?
+          What&apos;s your revision policy?
           <span className="faq-toggle">+</span>
         </div>
-        <div className="faq-answer">Project-based work includes defined revision rounds (1-2 depending on scope). Retainer clients get ongoing iteration baked into the relationship — the model is continuous improvement, not discrete deliverables. If a creative isn't working, I pivot fast.</div>
+        <div className="faq-answer">Project-based work includes defined revision rounds (1-2 depending on scope). Retainer clients get ongoing iteration baked into the relationship — the model is continuous improvement, not discrete deliverables. If a creative isn&apos;t working, I pivot fast.</div>
       </div>
       <div className="faq-item" onClick={(e) => toggleFaq(e.currentTarget)}>
         <div className="faq-question">
@@ -546,21 +546,21 @@ const AIFirstLandingPage = () => {
           Do you offer custom or enterprise scopes?
           <span className="faq-toggle">+</span>
         </div>
-        <div className="faq-answer">Yes. If none of the listed tiers fit your situation — whether you need a bespoke ML pipeline, a large-scale interactive experience, or an extended multi-month engagement — reach out and describe what you're building. Custom scopes are quoted after a brief discovery call.</div>
+        <div className="faq-answer">Yes. If none of the listed tiers fit your situation — whether you need a bespoke ML pipeline, a large-scale interactive experience, or an extended multi-month engagement — reach out and describe what you&apos;re building. Custom scopes are quoted after a brief discovery call.</div>
       </div>
       <div className="faq-item" onClick={(e) => toggleFaq(e.currentTarget)}>
         <div className="faq-question">
           What industries do you serve?
           <span className="faq-toggle">+</span>
         </div>
-        <div className="faq-answer">Primarily tech, SaaS, consumer apps, and creative brands. That said, good design and sharp strategy apply everywhere. If you have a product worth marketing, let's talk — I take projects based on fit and interesting scope, not strictly by vertical.</div>
+        <div className="faq-answer">Primarily tech, SaaS, consumer apps, and creative brands. That said, good design and sharp strategy apply everywhere. If you have a product worth marketing, let&apos;s talk — I take projects based on fit and interesting scope, not strictly by vertical.</div>
       </div>
       <div className="faq-item" onClick={(e) => toggleFaq(e.currentTarget)}>
         <div className="faq-question">
           What do you need to get started?
           <span className="faq-toggle">+</span>
         </div>
-        <div className="faq-answer">Fill out the contact form with your project type, timeline, and budget range. For retainer engagements I'll set up a 30-minute discovery call. For project work I can often turn around a scope and quote within 48 hours. The more context you give upfront, the faster I can move.</div>
+        <div className="faq-answer">Fill out the contact form with your project type, timeline, and budget range. For retainer engagements I&apos;ll set up a 30-minute discovery call. For project work I can often turn around a scope and quote within 48 hours. The more context you give upfront, the faster I can move.</div>
       </div>
     </div>
   </div>
@@ -569,9 +569,9 @@ const AIFirstLandingPage = () => {
 {/** CONTACT / SUBSCRIBE **/}
 <section id="contact">
   <div className="contact-inner">
-    <div className="section-label">Let's Work</div>
+    <div className="section-label">Let&apos;s Work</div>
     <h2 className="section-title">Ready to build<br />something <em>remarkable?</em></h2>
-    <p className="section-body" style={{ margin: "0 auto", textAlign: "center" }}>Tell me about your project. I'll respond within one business day with a clear next step.</p>
+    <p className="section-body" style={{ margin: "0 auto", textAlign: "center" }}>Tell me about your project. I&apos;ll respond within one business day with a clear next step.</p>
     <span className="section-title" style={{display: "block", marginTop: "15px", fontSize: "32px", textDecoration: "none"}}><em>Email me at alexthegoodman@gmail.com</em></span>
     {/* <form className="contact-form" onSubmit={(e) => handleSubmit(e)}>
       <div className="form-row">
