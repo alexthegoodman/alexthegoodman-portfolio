@@ -106,8 +106,8 @@ const AIFirstLandingPage = () => {
 
 {/** NAV **/}
 <nav id="main-nav">
-  {/* <a href="#" className="nav-logo">Alex<span>The</span>Goodman</a> */}
-  <img src={"/img/logo_w.svg"} className="nav-logo" alt="Alex Goodman" title="Alex Goodman" />
+  <a href="#"><img src={"/img/logo_w.svg"} className="nav-logo" alt="Alex Goodman" title="Alex Goodman" /></a>
+  
   <ul className="nav-links">
     <li><a href="#services">Services</a></li>
     <li><a href="#projects">Work</a></li>
@@ -285,7 +285,7 @@ const AIFirstLandingPage = () => {
       <div className="project-card reveal reveal-delay-1">
         <div className="project-type"><span>Ads</span> · <span>Social</span> · <span>Web Site</span></div>
         <img src="/img/ov/poems.png" style={{ display: "block", marginBottom: "15px" }} />
-        <h3 className="project-title"><em>Our Virtue</em> — App Launch</h3>
+        <h3 className="project-title"><em>Our Virtue</em> — Site Launch</h3>
         
         <p className="project-desc">Full-funnel campaign driving thousands of app installs. Social community building paired with targeted ad spend across multiple platforms.</p>
         <ul className="project-bullets">
