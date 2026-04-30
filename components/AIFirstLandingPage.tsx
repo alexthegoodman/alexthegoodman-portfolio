@@ -122,12 +122,12 @@ const AIFirstLandingPage = () => {
 <section className="hero" id="home">
   <div className="hero-bg-grid"></div>
   <div className="hero-orb"></div>
-  <div className="hero-tag">AI-First Creative Agency · Grand Rapids, MI</div>
+  <div className="hero-tag">Single-Person, AI-First Creative Studio · Grand Rapids, MI</div>
   <h1 className="hero-title">
     When <em>AI speed</em><br />meets knowhow
   </h1>
   <p className="hero-sub">
-    We blend generative AI, high-performance code, and design sensibility to create marketing experiences that move at the speed of your ambition.
+    I blend generative AI, high-performance code, and design sensibility to create marketing experiences that move at the speed of your ambition.
   </p>
   <div className="hero-actions">
     <a href="#contact" className="btn-primary">Begin Your Project</a>
@@ -169,7 +169,7 @@ const AIFirstLandingPage = () => {
 {/** SERVICES **/}
 <section id="services">
   <div className="section-inner">
-    <div className="section-label">What We Do</div>
+    <div className="section-label">What I Do</div>
     <h2 className="section-title">Services built for<br /><em>the AI era</em></h2>
     <p className="section-body">Every engagement combines creative vision with machine intelligence — the result is faster iteration, sharper messaging, and visuals that make people stop scrolling.</p>
     <div className="services-grid reveal">
@@ -177,7 +177,7 @@ const AIFirstLandingPage = () => {
         <div className="service-num">01</div>
         <span className="service-icon">⬡</span>
         <div className="service-name">Creative <em>Ads</em></div>
-        <p className="service-desc">AI-assisted ad creation across Facebook, Instagram, Google, and beyond. From copy to creative, we move fast without sacrificing brand voice or visual quality.</p>
+        <p className="service-desc">AI-assisted ad creation across Facebook, Instagram, Google, and beyond. From copy to creative, I move fast without sacrificing brand voice or visual quality.</p>
         <div className="service-tags">
           <span className="tag">Meta Ads</span>
           <span className="tag">Google</span>
@@ -506,7 +506,7 @@ const AIFirstLandingPage = () => {
           What makes this "AI-first"?
           <span className="faq-toggle">+</span>
         </div>
-        <div className="faq-answer">AI is woven into every part of the workflow — not as a shortcut, but as a force multiplier. From generative ad creative and copy variants to predictive analytics and custom ML models, the result is faster output, lower cost, and measurably better performance. You still get hand-crafted design and strategy; AI just removes the ceiling on how much we can do.</div>
+        <div className="faq-answer">AI is woven into every part of the workflow — not as a shortcut, but as a force multiplier. From generative ad creative and copy variants to predictive analytics and custom ML models, the result is faster output, lower cost, and measurably better performance. You still get hand-crafted design and strategy; AI just removes the ceiling on how much I can do.</div>
       </div>
       <div className="faq-item" onClick={(e) => toggleFaq(e.currentTarget)}>
         <div className="faq-question">
@@ -527,7 +527,7 @@ const AIFirstLandingPage = () => {
           What's your revision policy?
           <span className="faq-toggle">+</span>
         </div>
-        <div className="faq-answer">Project-based work includes defined revision rounds (1-2 depending on scope). Retainer clients get ongoing iteration baked into the relationship — the model is continuous improvement, not discrete deliverables. If a creative isn't working, we pivot fast.</div>
+        <div className="faq-answer">Project-based work includes defined revision rounds (1-2 depending on scope). Retainer clients get ongoing iteration baked into the relationship — the model is continuous improvement, not discrete deliverables. If a creative isn't working, I pivot fast.</div>
       </div>
       <div className="faq-item" onClick={(e) => toggleFaq(e.currentTarget)}>
         <div className="faq-question">
@@ -555,7 +555,7 @@ const AIFirstLandingPage = () => {
           What do you need to get started?
           <span className="faq-toggle">+</span>
         </div>
-        <div className="faq-answer">Fill out the contact form with your project type, timeline, and budget range. For retainer engagements I'll set up a 30-minute discovery call. For project work I can often turn around a scope and quote within 48 hours. The more context you give upfront, the faster we can move.</div>
+        <div className="faq-answer">Fill out the contact form with your project type, timeline, and budget range. For retainer engagements I'll set up a 30-minute discovery call. For project work I can often turn around a scope and quote within 48 hours. The more context you give upfront, the faster I can move.</div>
       </div>
     </div>
   </div>
@@ -608,7 +608,7 @@ const AIFirstLandingPage = () => {
 {/** FOOTER **/}
 <footer>
   <div className="footer-logo">AlexTheGoodman</div>
-  <p className="footer-copy">© 2025 AlexTheGoodman. Grand Rapids, MI.</p>
+  <p className="footer-copy">© 2026 AlexTheGoodman. Grand Rapids, MI.</p>
   <ul className="footer-links">
     <li><a href="#services">Services</a></li>
     <li><a href="#projects">Work</a></li>
