@@ -335,6 +335,18 @@ const AIFirstLandingPage = () => {
         <a href="https://github.com/alexthegoodman/common-motion-2d-reg/tree/attention/src" className="project-link">View on GitHub →</a>
       </div>
 
+      <div className="project-card reveal reveal-delay-1">
+        <div className="project-type"><span>Design</span> · <span>CMS</span></div>
+        <img src="/img/sites.png" style={{ display: "block", marginBottom: "15px" }} />
+        <h3 className="project-title"><em>Local</em> Websites</h3>
+        <p className="project-desc">Designed by me over the years, now sped up thanks to AI. Serving satisfied clients for years.</p>
+        <ul className="project-bullets">
+          <li>Intuitive and easy-to-use content updates</li>
+          <li>Carefully designed pages for brand support</li>
+          <li>SEO and performance are also top of mind</li>
+        </ul>
+      </div>
+
     </div>
   </div>
 </section>
