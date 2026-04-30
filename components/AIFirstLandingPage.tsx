@@ -572,7 +572,7 @@ const AIFirstLandingPage = () => {
     <div className="section-label">Let's Work</div>
     <h2 className="section-title">Ready to build<br />something <em>remarkable?</em></h2>
     <p className="section-body" style={{ margin: "0 auto", textAlign: "center" }}>Tell me about your project. I'll respond within one business day with a clear next step.</p>
-    <span className="section-title" href="mailto:alexthegoodman@gmail.com" style={{display: "block", marginTop: "15px", fontSize: "32px", textDecoration: "none"}}><em>Email me at alexthegoodman@gmail.com</em></span>
+    <span className="section-title" style={{display: "block", marginTop: "15px", fontSize: "32px", textDecoration: "none"}}><em>Email me at alexthegoodman@gmail.com</em></span>
     {/* <form className="contact-form" onSubmit={(e) => handleSubmit(e)}>
       <div className="form-row">
         <div className="form-group">
