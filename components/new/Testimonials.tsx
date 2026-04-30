@@ -44,8 +44,6 @@ const TestimonialShowcase = ({ note = false }) => {
   ];
 
   const summary = {
-    // technical:
-    //   "Strong development skills with ability to quickly understand codebases and add meaningful improvements",
     communication:
       "Clear communication, reliable, and easy to collaborate with throughout projects",
     strategic:
@@ -56,25 +54,9 @@ const TestimonialShowcase = ({ note = false }) => {
       "Consistently recommended for future work",
   };
 
-  const nextTestimonial = () => {
-    setCurrentIndex((prev) => (prev + 1) % testimonials.length);
-  };
-
-  const prevTestimonial = () => {
-    setCurrentIndex(
-      (prev) => (prev - 1 + testimonials.length) % testimonials.length
-    );
-  };
-
   return (
     <div className={styles.testimonialShowcase}>
       <div className={styles.container}>
-        {/* Header */}
-        {/* <div className={styles.header}>
-          <h1>Professional Profile</h1>
-          <p className={styles.subtitle}>Client Testimonials & Summary</p>
-        </div> */}
-
         {/* Summary Section */}
         <div className={styles.summarySection}>
           <h2>Key Strengths</h2>
@@ -94,9 +76,6 @@ const TestimonialShowcase = ({ note = false }) => {
         <div className={styles.testimonialSection}>
           <h2 className="text-2xl font-light mb-8 border-b border-gray-300 pb-3">
             Client Testimonials
-            {/* <span className={styles.counter}>
-              {currentIndex + 1} / {testimonials.length}
-            </span> */}
           </h2>
 
           {note && <p style={{fontSize: "20px", marginBottom: "25px", fontStyle: "italic"}}>These testimonials were earned as a contract web developer.</p>}
@@ -138,54 +117,7 @@ const TestimonialShowcase = ({ note = false }) => {
               </section>
             ))}
           </div>
-
-          {/* <div className={styles.carouselControls}>
-              <button
-                onClick={prevTestimonial}
-                className={styles.navButton}
-                aria-label="Previous testimonial"
-              >
-                <ArrowLeftIcon className="w-5 h-5" />
-              </button>
-
-              <div className={styles.dotIndicators}>
-                {testimonials.map((_, idx) => (
-                  <button
-                    key={idx}
-                    onClick={() => setCurrentIndex(idx)}
-                    className={`${styles.dot} ${
-                      idx === currentIndex ? styles.activeDot : ""
-                    }`}
-                    aria-label={`Go to testimonial ${idx + 1}`}
-                  />
-                ))}
-              </div>
-
-              <button
-                onClick={nextTestimonial}
-                className={styles.navButton}
-                aria-label="Next testimonial"
-              >
-                <ArrowRightIcon className="w-5 h-5" />
-              </button>
-            </div> */}
         </div>
-
-        {/* Footer Stats */}
-        {/* <div className={styles.footerStats}>
-          <div className={styles.stat}>
-            <div className={styles.statNumber}>{testimonials.length}</div>
-            <div className={styles.statLabel}>Testimonials</div>
-          </div>
-          <div>
-            <div className={styles.statNumber}>100%</div>
-            <div className={styles.statLabel}>Would Recommend</div>
-          </div>
-          <div>
-            <div className={styles.statNumber}>5★</div>
-            <div className={styles.statLabel}>Average Rating</div>
-          </div>
-        </div> */}
       </div>
     </div>
   );

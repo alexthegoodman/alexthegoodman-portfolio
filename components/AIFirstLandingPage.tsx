@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { useEffect } from "react";
+import TestimonialShowcase from "./new/Testimonials";
 
 const AIFirstLandingPage = () => {
 
@@ -332,6 +333,8 @@ const AIFirstLandingPage = () => {
     </div>
   </div>
 </section>
+
+<TestimonialShowcase />
 
 {/** ABOUT **/}
 <section id="about">
