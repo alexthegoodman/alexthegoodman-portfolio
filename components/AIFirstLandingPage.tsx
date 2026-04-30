@@ -283,8 +283,10 @@ const AIFirstLandingPage = () => {
       </div>
 
       <div className="project-card reveal reveal-delay-1">
-        <div className="project-type"><span>Ads</span> · <span>Social</span></div>
+        <div className="project-type"><span>Ads</span> · <span>Social</span> · <span>Web Site</span></div>
+        <img src="/img/ov/poems.png" style={{ display: "block", marginBottom: "15px" }} />
         <h3 className="project-title"><em>Our Virtue</em> — App Launch</h3>
+        
         <p className="project-desc">Full-funnel campaign driving thousands of app installs. Social community building paired with targeted ad spend across multiple platforms.</p>
         <ul className="project-bullets">
           <li>Thousands of app installs via paid + organic</li>
@@ -295,8 +297,9 @@ const AIFirstLandingPage = () => {
       </div>
 
       <div className="project-card reveal reveal-delay-2">
-        <div className="project-type"><span>Ads</span> · <span>Conversion</span></div>
-        <h3 className="project-title"><em>CommonOS</em> — Campaign</h3>
+        <div className="project-type"><span>Ads</span> · <span>Conversion</span> · <span>Web App</span></div>
+        <img src="/img/commonplace/mainSmall.jpg" style={{ display: "block", marginBottom: "15px" }} />
+        <h3 className="project-title"><em>CommonPlace</em> — Campaign</h3>
         <p className="project-desc">High-conversion ad campaigns paired with fast landing pages. Attractive creative backed by optimized funnels built to convert cold traffic.</p>
         <ul className="project-bullets">
           <li>Fast, high-converting landing page architecture</li>
@@ -308,6 +311,7 @@ const AIFirstLandingPage = () => {
 
       <div className="project-card reveal reveal-delay-1">
         <div className="project-type"><span>Game Engine</span> · <span>WebGL</span></div>
+        <img src="/img/entropy/screen1.png" style={{ display: "block", marginBottom: "15px" }} />
         <h3 className="project-title"><em>Entropy</em> — Game Engine</h3>
         <p className="project-desc">Lightweight game engine targeting mobile and web with AAA-level visuals. Deferred rendering, procedural grass, and open-world landscape support.</p>
         <ul className="project-bullets">
@@ -320,6 +324,7 @@ const AIFirstLandingPage = () => {
 
       <div className="project-card reveal reveal-delay-2">
         <div className="project-type"><span>ML</span> · <span>Animation</span></div>
+        <img src="/img/ml/loss.png" style={{ display: "block", marginBottom: "15px" }} />
         <h3 className="project-title"><em>CommonMotion 2D</em> — ML Model</h3>
         <p className="project-desc">A VAE-LSTM architecture trained on in-house motion data that generates smooth UI animation paths — running on CPU with minimal RAM overhead.</p>
         <ul className="project-bullets">
