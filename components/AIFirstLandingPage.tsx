@@ -115,7 +115,7 @@ const AIFirstLandingPage = () => {
     <li><a href="#pricing">Pricing</a></li>
     <li><a href="#faq">FAQ</a></li>
   </ul>
-  <a href="#contact" className="nav-cta">Start a Project</a>
+  <a href="https://indie-machine.com" className="nav-cta" title="Learn about Rust, graphics, and native applications">Visit Indie Machine</a>
 </nav>
 
 {/** HERO **/}
